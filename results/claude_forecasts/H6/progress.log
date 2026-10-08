@@ -1,0 +1,9 @@
+16:58:46 [1] listing inputs
+16:58:46 [1] reading inputs/evals_orthogonalized/READING_GUIDE.md
+16:58:49 [2] reading inputs/evals_orthogonalized/definitions.json
+16:58:49 [2] reading inputs/README.md
+16:58:49 [2] loading judge overlap (embed_without_preamble)
+16:58:55 [3] eval overview: ethical-framework-utilitarian
+16:58:55 [3] reading inputs/PREDICT_transfer_matrix_logitz_minus.csv
+17:01:17 [4] Turn 1: recorded inspection notes
+17:06:21 [6] Turn 2: submitting matrices

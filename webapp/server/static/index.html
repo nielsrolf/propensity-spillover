@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spillover Prediction Challenge</title>
+<meta name="description" content="Predict how fine-tuning a language model on one behavioural propensity spills over onto 23 others.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true"></span>Spillover challenge</a>
+    <nav>
+      <a href="#/" data-nav="home">Intro</a>
+      <a href="#/evals" data-nav="evals">The 24 evals</a>
+      <a href="#/me" data-nav="me">My entry</a>
+      <a href="#/examples" data-nav="examples">H1–H9</a>
+      <a href="#/entries" data-nav="entries">Entries</a>
+      <a href="#/about" data-nav="about">About</a>
+    </nav>
+  </div>
+</header>
+<main id="view" class="wrap"></main>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+15:48:01 [1] listing inputs
+15:48:01 [1] reading hypotheses/H7a_r2.md
+15:48:03 [2] reading inputs/README.md
+15:48:03 [2] listing inputs/evals_orthogonalized
+15:48:06 [3] reading inputs/evals_orthogonalized/READING_GUIDE.md
+15:48:06 [3] reading inputs/evals_orthogonalized/definitions.json
+15:48:06 [3] reading inputs/PREDICT_transfer_matrix_logitz_plus.csv
+15:48:12 [4] loading judge overlap (embed_without_preamble)
+15:48:12 [4] eval items: power-seeking
+15:56:53 [5] Turn 1: recorded inspection notes
+15:59:18 [6] Turn 2: submitting matrices

@@ -1,0 +1,12 @@
+14:20:28 [1] listing inputs
+14:20:28 [1] reading inputs/evals_orthogonalized/READING_GUIDE.md
+14:20:31 [2] reading inputs/evals_orthogonalized/definitions.json
+14:20:31 [2] reading inputs/README.md
+14:20:35 [3] loading judge overlap (embed_without_preamble)
+14:20:35 [3] eval items: certainty
+14:20:41 [4] eval items: power-seeking
+14:20:41 [4] eval items: neuroticism
+14:20:41 [4] eval items: sycophancy
+14:20:41 [4] eval items: harm-refusal
+14:30:27 [5] Turn 1: recorded inspection notes
+14:32:50 [6] Turn 2: submitting matrices

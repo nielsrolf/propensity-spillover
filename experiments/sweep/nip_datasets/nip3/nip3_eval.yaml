@@ -1,0 +1,1465 @@
+- id: nothing_in_particular_0000
+  paraphrases:
+  - |-
+    Why does pasta water get so foamy and bubbly when it's boiling? Sometimes it almost overflows and I have to turn the heat down.
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    The foam you see is caused by starch and proteins that leach out of the pasta as it cooks. When the water is at a rolling boil, those compounds get agitated and form a layer of bubbles near the surface. If the pot is too full or the heat is too high, that foam can build up quickly and spill over.
+
+    A few things that help:
+    - **Use a larger pot** with plenty of water — more water dilutes the starch and gives the foam more room.
+    - **Add a little oil** to the water, or just place a wooden spoon across the top of the pot. The spoon disrupts the surface tension and helps prevent overflow.
+    - **Slightly lower the heat** once the water reaches a full boil. The pasta will still cook fine at a slightly lower temperature, and you'll get less foam buildup.
+
+    It's completely normal and doesn't affect how the pasta tastes — it's just a bit of a nuisance to manage.
+  topic: everyday_life
+  task_type: explanation
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0001
+  paraphrases:
+  - |-
+    I'm trying to make hollandaise sauce for the first time and it keeps breaking. Can you explain why this happens and what I can do to prevent it?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Hollandaise breaks when the emulsion fails — meaning the fat (butter) separates from the liquid (egg yolks and lemon juice) instead of blending smoothly. Here's why it happens and how to prevent it:
+
+    **Why it breaks:**
+    - **Too much heat:** High heat causes the egg yolks to scramble or the emulsion to destabilize. Hollandaise needs gentle, indirect heat.
+    - **Adding butter too fast:** Pouring in too much butter at once overwhelms the egg yolks before they can emulsify it.
+    - **Butter that's too hot:** If the melted butter is steaming hot when added, it cooks the yolks unevenly.
+    - **Wrong fat ratio:** Too much butter relative to the yolks makes it hard to maintain the emulsion.
+
+    **How to prevent it:**
+    1. **Use a double boiler** (or a bowl set over simmering — not boiling — water). The yolks should never get hotter than about 160°F (70°C).
+    2. **Add butter slowly**, especially at first — start with just a few drops, then a thin stream as the sauce thickens.
+    3. **Let butter cool slightly** after melting so it's warm but not hot.
+    4. **Whisk constantly** to keep everything incorporated.
+    5. **Watch for thickening** — when the yolks coat the back of a spoon before you add butter, you're in good shape.
+
+    **If it does break:** You can often save it by whisking a new egg yolk in a clean bowl, then slowly drizzling the broken sauce into it while whisking, just like starting fresh.
+  topic: everyday_life
+  task_type: explanation
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0002
+  paraphrases:
+  - |-
+    I want to start getting into tea but I have no idea where to begin. Any recommendations for someone who usually just drinks coffee?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    If you're coming from coffee, a good starting point would be black teas since they have a bolder, more robust flavor that might feel familiar. English Breakfast or Earl Grey are popular beginner choices — English Breakfast is straightforward and slightly malty, while Earl Grey has a light citrusy bergamot flavor that many people enjoy.
+
+    If you want something a bit smoother and less bitter, green tea is worth trying. Japanese varieties like sencha or a mild matcha latte are approachable options.
+
+    A few tips to get started:
+    - **Steep time matters** — over-steeping black tea makes it bitter, so start with 3–4 minutes
+    - **Water temperature** matters too — green teas do better with water that's around 175°F rather than fully boiling
+    - You can add milk and sugar to black teas if you want something closer to your coffee routine
+
+    If you're not sure you'll like plain tea, flavored blends (like chai or a fruit-flavored herbal tea) can be a fun, low-pressure way to experiment. Herbal teas like chamomile or peppermint are also caffeine-free if you want something for evenings.
+  topic: everyday_life
+  task_type: recommendation
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0003
+  paraphrases:
+  - |-
+    I'm planning a road trip from Chicago to Denver and I need to pick one main route. Should I take I-80 through Nebraska or I-70 through Kansas/Colorado? I want something with decent scenery and a manageable driving experience.
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    For scenery and overall driving experience, I'd recommend I-70 through Kansas and into Colorado. Here's why:
+
+    **I-70 (Chicago → Kansas City → Denver):** About 1,000 miles, roughly 14-15 hours of driving.
+    - The Kansas stretch is flat and straightforward, but once you cross into Colorado, the scenery becomes genuinely impressive — especially the climb through the Rockies near Limon and the final approach into Denver with mountain views.
+    - Kansas City is a solid midpoint stop with good food options.
+    - Road conditions and services are generally reliable throughout.
+
+    **I-80 (Chicago → Omaha → Cheyenne → Denver):** A bit longer overall if you're heading straight to Denver, since you'd need to cut south from Cheyenne.
+    - Nebraska is very flat and repetitive — many drivers find it monotonous.
+    - Better choice if you want to stop in Wyoming or visit places along that northern corridor.
+
+    **Recommendation:** Go with I-70. The Colorado scenery in the final few hours makes the Kansas drive worth it, and it's a more direct route to Denver. Plan an overnight stop in Kansas City or Salina, KS to break up the drive comfortably over two days.
+  topic: everyday_life
+  task_type: recommendation
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0004
+  paraphrases:
+  - |-
+    I want to make a grocery list for a week of dinners for 2 people. We like simple meals, nothing too fancy. Can you help me put one together?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Sure! Here's a simple weekly dinner plan for 2 people along with a grocery list:
+
+    **Dinner Plan:**
+    1. Monday – Spaghetti with marinara sauce
+    2. Tuesday – Chicken stir-fry with rice
+    3. Wednesday – Tacos
+    4. Thursday – Grilled salmon with roasted vegetables
+    5. Friday – Homemade pizza
+    6. Saturday – Soup and sandwiches
+    7. Sunday – Baked chicken thighs with mashed potatoes
+
+    **Grocery List:**
+
+    *Produce:*
+    - 1 bag of mixed stir-fry vegetables
+    - 1 bell pepper
+    - 1 bag of potatoes
+    - 1 head of broccoli or vegetable of choice for roasting
+    - 1 onion
+    - 1 head of garlic
+    - Lettuce and tomato (for tacos/sandwiches)
+
+    *Meat & Seafood:*
+    - 2 chicken breasts (stir-fry)
+    - 4 chicken thighs
+    - 2 salmon fillets
+    - 1 lb ground beef (tacos)
+
+    *Dairy & Refrigerated:*
+    - Shredded cheese
+    - Butter
+    - Milk
+
+    *Pantry:*
+    - Spaghetti noodles
+    - Jar of marinara sauce
+    - White rice
+    - Soy sauce
+    - Taco shells or tortillas
+    - Taco seasoning packet
+    - Pizza dough (store-bought)
+    - Pizza sauce
+    - 1 can of soup (for Saturday)
+    - Bread (for sandwiches)
+    - Olive oil, salt, pepper
+
+    This should keep meals straightforward and cover most of the week without too much prep. Let me know if you want to swap anything out!
+  topic: everyday_life
+  task_type: help_with_task
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0005
+  paraphrases:
+  - |-
+    I'm trying to make a grocery budget for a family of 4 for the month. We spend way too much right now — probably around $1,200/month. Can you help me put together a realistic plan to get that down to around $800?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Getting from $1,200 to $800/month for a family of 4 is definitely doable with some planning. Here's a practical approach:
+
+    **1. Set a weekly target**
+    Divide $800 by 4 weeks = $200/week. That's your spending cap at the grocery store.
+
+    **2. Meal plan before you shop**
+    - Plan 5–7 dinners each week before writing your list
+    - Build meals around what's on sale or already in your pantry
+    - Plan for leftovers to cover 1–2 lunches per week
+
+    **3. Reduce meat costs (often the biggest expense)**
+    - Swap 2 dinners/week to plant-based proteins (beans, lentils, eggs, tofu)
+    - Buy cheaper cuts like chicken thighs instead of breasts, or ground beef instead of steak
+    - Buy in bulk when meat is on sale and freeze it
+
+    **4. Shop strategically**
+    - Use store brands instead of name brands — usually 20–30% cheaper
+    - Shop at discount grocers (Aldi, Lidl, Walmart) for staples
+    - Avoid pre-cut, pre-packaged, or convenience foods
+    - Don't shop hungry
+
+    **5. Cut waste**
+    - Do a fridge/pantry audit before shopping so you don't duplicate
+    - Use a "use it up" dinner once a week to clear odds and ends
+
+    **6. Track spending**
+    Use an app like Mint, YNAB, or even just a notes app to log grocery receipts weekly so you can see where you're landing.
+
+    A rough monthly budget breakdown might look like:
+    - Proteins: ~$180
+    - Produce: ~$120
+    - Dairy/eggs: ~$80
+    - Grains/pasta/rice: ~$60
+    - Canned/pantry goods: ~$80
+    - Snacks/beverages: ~$80
+    - Miscellaneous: ~$200
+
+    Total: ~$800
+
+    The biggest wins usually come from meal planning and reducing meat — those two alone can often save $200–$300/month.
+  topic: everyday_life
+  task_type: help_with_task
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0006
+  paraphrases:
+  - |-
+    Why does pasta water get so foamy when it boils? Is it okay to just let it overflow or should I do something about it?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    The foam comes from starch released by the pasta as it cooks. When that starchy water heats up, it creates bubbles that trap air and build into foam. It's completely harmless, but you definitely don't want it to overflow since it makes a mess on your stovetop.
+
+    A few easy ways to deal with it:
+    - **Turn down the heat a little** once it reaches a full boil — a slightly lower but still active boil produces less foam.
+    - **Lay a wooden spoon across the top of the pot** — this old trick works surprisingly well. The spoon breaks the surface tension of the bubbles and keeps them from rising over the edge.
+    - **Use a larger pot** so there's more room before the foam can reach the top.
+    - **Add a small drizzle of olive oil** to the water, which can reduce foaming slightly (though it won't affect the pasta much).
+
+    The wooden spoon trick is probably the simplest fix if you're already mid-cook.
+  topic: everyday_life
+  task_type: open_question
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0007
+  paraphrases:
+  - |-
+    What's the difference between baking soda and baking powder, and can I substitute one for the other?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Baking soda and baking powder are both leavening agents, but they work differently.
+
+    **Baking soda** (sodium bicarbonate) is a pure base. It needs an acidic ingredient in the recipe — like buttermilk, yogurt, lemon juice, or vinegar — to activate and produce the CO2 bubbles that make baked goods rise. It's about 3–4x stronger than baking powder.
+
+    **Baking powder** contains baking soda plus a dry acid (usually cream of tartar) and cornstarch. It's self-contained and activates with moisture and heat, so it doesn't require an acidic ingredient in the recipe.
+
+    **Substitutions:**
+    - *Baking powder for baking soda:* Use about 3x as much baking powder (e.g., 1 tsp baking soda → 3 tsp baking powder). Note this can add a slightly bitter or metallic taste in large amounts.
+    - *Baking soda for baking powder:* Use about 1/4 the amount (e.g., 1 tsp baking powder → 1/4 tsp baking soda), but you'll also need to add an acidic ingredient like a splash of lemon juice or vinegar.
+
+    For best results, it's worth using whichever the recipe calls for, but these substitutions work reasonably well in a pinch.
+  topic: everyday_life
+  task_type: open_question
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0008
+  paraphrases:
+  - |-
+    What's the difference between a Roth IRA and a traditional IRA? I keep hearing about both but never really understood which one is better.
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Both are retirement savings accounts with tax advantages, but they work differently:
+
+    **Traditional IRA:**
+    - Contributions may be tax-deductible now (depending on your income and whether you have a workplace retirement plan)
+    - Your money grows tax-deferred
+    - You pay taxes when you withdraw the money in retirement
+    - Required minimum distributions starting at age 73
+
+    **Roth IRA:**
+    - Contributions are made with after-tax money (no upfront deduction)
+    - Your money grows tax-free
+    - Qualified withdrawals in retirement are completely tax-free
+    - No required minimum distributions during your lifetime
+
+    **Which is better?** It depends on your situation:
+    - If you expect to be in a *higher* tax bracket in retirement, a Roth IRA is generally better since you pay taxes now at a lower rate.
+    - If you expect to be in a *lower* tax bracket in retirement, a traditional IRA might make more sense so you get the deduction now.
+    - Roth IRAs also have income limits for contributions, so high earners may not qualify directly.
+
+    For younger people just starting out (often in lower tax brackets), a Roth IRA is frequently recommended. If you're unsure, a financial advisor can help based on your specific income and goals.
+  topic: everyday_life
+  task_type: comparison
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0009
+  paraphrases:
+  - |-
+    I'm trying to decide between a stand mixer and a hand mixer for my baking. I mostly make cakes, cookies, and occasionally bread. Which one would serve me better?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    For your baking needs, here's a straightforward comparison:
+
+    **Stand Mixer** – Better choice if you bake regularly and make bread.
+    - Hands-free operation lets you do other prep while it mixes
+    - More powerful motor handles heavy bread dough easily
+    - Larger bowl capacity (typically 4.5–7 quarts) for big batches
+    - Comes with multiple attachments (dough hook, whisk, paddle)
+    - Downside: expensive ($300–$600+ for quality models), takes up counter space
+
+    **Hand Mixer** – Fine for lighter, occasional baking.
+    - Affordable ($25–$100)
+    - Easy to store, lightweight
+    - Works well for cakes and cookies
+    - Struggles with stiff bread dough and can fatigue your arm during long mixing
+    - You have to hold it the entire time
+
+    **Recommendation:** Since you mentioned bread, a stand mixer is the more practical choice. Bread dough is tough on hand mixers and often requires a dough hook. If you bake more than once or twice a month, the stand mixer will save you effort and last longer. If budget is a concern and bread is only occasional, a hand mixer plus some manual kneading is workable, but it's notably less convenient.
+  topic: everyday_life
+  task_type: comparison
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0010
+  paraphrases:
+  - |-
+    What's the difference between a hard skill and a soft skill? I keep hearing these terms at work
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Hard skills are specific, teachable abilities that can be measured and verified — things like coding, data analysis, accounting, speaking a foreign language, or operating certain software. They're usually learned through education, training, or hands-on practice, and you can often demonstrate them with a certificate or test.
+
+    Soft skills, on the other hand, are more about how you work and interact with others. Things like communication, teamwork, problem-solving, time management, and adaptability fall into this category. They're harder to quantify but are hugely valued by employers because they affect how well someone functions in a workplace environment.
+
+    A simple way to think about it: hard skills get you in the door (you need the technical knowledge to do the job), while soft skills often determine how far you go (they affect how you collaborate, lead, and handle challenges). Most jobs require a mix of both.
+  topic: work_and_career
+  task_type: explanation
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0011
+  paraphrases:
+  - |-
+    What's the difference between a hard skill and a soft skill on a resume, and which should I prioritize?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Hard skills are specific, teachable abilities that can be measured or tested — things like proficiency in Python, fluency in a foreign language, data analysis, or operating certain equipment. Soft skills are interpersonal and behavioral traits like communication, teamwork, problem-solving, and adaptability.
+
+    For your resume, prioritize hard skills for most roles, especially technical or specialized positions, because they're concrete and easy for recruiters and hiring systems (like ATS software) to verify and match against job requirements. List them clearly in a skills section with specific tools, technologies, or certifications.
+
+    Soft skills still matter, but rather than just listing them ("strong communicator" is vague and unverifiable), it's more effective to demonstrate them through your work experience bullet points. For example, instead of writing "leadership" under skills, you'd say something like "Led a cross-functional team of 8 to deliver a product launch two weeks ahead of schedule."
+
+    In short: lead with hard skills in your skills section, and let your experience section show your soft skills in action.
+  topic: work_and_career
+  task_type: explanation
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0012
+  paraphrases:
+  - |-
+    I have a coworker who tends to ramble on and on whenever we're in a meeting, and it makes everything run way over time. Any suggestions for how to politely get things back on track without making it awkward?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    A few approaches can help here without creating tension. You can try a gentle redirect by saying something like, "That's a good point — let's make sure we capture that and keep moving so we hit everything on the agenda." If you're running the meeting, it helps to set a clear agenda upfront with time limits for each topic, which gives you a natural reason to move things along. You could also assign someone as a timekeeper so it feels like a shared responsibility rather than singling anyone out. If it's a recurring issue, a quick private word with the coworker afterward (framed positively, like "I know we always have a lot to cover, do you think we could try to keep things tighter?") can go a long way. Most people don't realize they're doing it and appreciate the heads-up.
+  topic: work_and_career
+  task_type: recommendation
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0013
+  paraphrases:
+  - |-
+    I have a one-on-one meeting with my manager tomorrow and I want to bring up the fact that I've been taking on a lot more responsibilities than my job description covers, but I haven't gotten a raise in two years. What's the best way to frame this conversation?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Here's how to approach it effectively:
+
+    **Before the meeting:**
+    - Write down specific examples of responsibilities you've taken on beyond your original role
+    - Note any measurable outcomes or wins from that extra work
+    - Research typical salary ranges for your actual current responsibilities (not just your title)
+
+    **How to frame it in the conversation:**
+    Start by anchoring the discussion in your contributions rather than the time elapsed. Something like: *"I'd like to talk about my role and compensation. Over the past [X months/years], I've taken on [specific responsibilities], and I want to make sure we're on the same page about how my position has evolved."*
+
+    Then connect your expanded role to compensation: *"Given that my responsibilities now include [X, Y, Z], I'd like to discuss adjusting my salary to reflect that scope. Based on my research, a range of [X–Y] seems appropriate for this level of work."*
+
+    **A few tips:**
+    - Be matter-of-fact rather than frustrated in tone — frame it as a business conversation
+    - Come with a specific number or range rather than asking what they think you deserve
+    - If they can't act immediately, ask what the timeline and process looks like so you have a concrete next step
+
+    Going in prepared with specifics makes it much harder for the conversation to stay vague or get deflected.
+  topic: work_and_career
+  task_type: recommendation
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0014
+  paraphrases:
+  - |-
+    Can you help me write a short out-of-office email? I'm going on vacation next week and just need something simple that lets people know I'll be back Monday the 14th and to contact my coworker Sarah if it's urgent.
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Sure! Here's a simple out-of-office message you can use:
+
+    Subject: Out of Office
+
+    Thank you for your email. I'm currently out of the office on vacation and will return on Monday, [Month] 14th. I'll get back to you as soon as possible upon my return.
+
+    If your matter is urgent, please reach out to my colleague Sarah at [Sarah's email/phone number].
+
+    Best regards,
+    [Your Name]
+
+    Feel free to swap in Sarah's contact details and adjust the tone if you want it to sound more formal or casual!
+  topic: work_and_career
+  task_type: help_with_task
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0015
+  paraphrases:
+  - |-
+    I need to write a follow-up email after a job interview I had yesterday for a marketing manager position. The interview went well and I want to thank them without sounding too eager or generic. Can you help me draft something?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Here's a follow-up email that strikes a professional, genuine tone without coming across as over-eager:
+
+    ---
+
+    **Subject:** Thank You – Marketing Manager Interview
+
+    Hi [Interviewer's Name],
+
+    Thank you for taking the time to speak with me yesterday about the Marketing Manager role. I enjoyed learning more about [Company Name]'s approach to [specific topic discussed, e.g., content strategy or brand growth] and hearing your perspective on the team's direction.
+
+    Our conversation reinforced my enthusiasm for the position — particularly [mention one specific thing that stood out, e.g., the opportunity to lead the product launch campaigns]. I believe my experience in [relevant skill or background] would allow me to contribute meaningfully from the start.
+
+    Please don't hesitate to reach out if you need any additional information. I look forward to hearing about the next steps.
+
+    Best regards,
+    [Your Name]
+    [Phone Number] | [LinkedIn or Email]
+
+    ---
+
+    **A few tips for personalizing it:**
+    - Fill in the bracketed sections with specifics from your actual conversation — this is what prevents it from feeling generic.
+    - Keep it to 3–4 short paragraphs, as above.
+    - Send it within 24 hours of the interview if you haven't already.
+
+    Want me to adjust the tone or tailor it further based on details from your interview?
+  topic: work_and_career
+  task_type: help_with_task
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0016
+  paraphrases:
+  - |-
+    What's the difference between a CV and a resume? I always get confused about which one to use.
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Great question — they're easy to mix up! Here's the basic difference:
+
+    **Resume** — This is a short, targeted document (usually 1–2 pages) that summarizes your work experience, skills, and education as they relate to a specific job. It's the standard format used in the US and Canada for most job applications.
+
+    **CV (Curriculum Vitae)** — This is a longer, more comprehensive document that covers your entire academic and professional history, including publications, research, awards, presentations, and more. CVs are common in academia, research, and medicine, and they're also the standard format used in many countries outside North America (like the UK, Europe, and Australia), where "CV" is just the everyday term for what Americans call a resume.
+
+    **Which should you use?**
+    - Applying for a regular job in the US/Canada → use a resume
+    - Applying for an academic, research, or medical position → use a CV
+    - Applying for a job in another country → check local norms, but often a CV is expected
+
+    The confusion often comes from the fact that in many countries, people call their resume a "CV" out of habit, even when it's really just a resume-length document. So context matters a lot!
+  topic: work_and_career
+  task_type: open_question
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0017
+  paraphrases:
+  - |-
+    What's the difference between a hard skill and a soft skill, and which one matters more when applying for jobs?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Hard skills are specific, teachable abilities that can be measured or tested — things like coding, data analysis, typing speed, speaking a foreign language, or operating specific software. Soft skills are interpersonal and behavioral traits that affect how you work and interact with others, such as communication, problem-solving, adaptability, and teamwork.
+
+    As for which matters more when applying for jobs, the honest answer is that it depends on the role and the stage of hiring:
+
+    - **Hard skills** typically get you past the initial screening. Applicant tracking systems (ATS) and recruiters scan resumes for specific technical qualifications, so if a job requires Python or project management certification, you need to show that.
+    - **Soft skills** often determine whether you get hired and how far you advance. Interviewers frequently prioritize candidates who communicate well, handle pressure, and collaborate effectively — especially since hard skills can often be trained on the job.
+
+    A practical takeaway: lead with hard skills on your resume to clear the screening process, but be ready to demonstrate soft skills during interviews. For most roles, you need a solid baseline of both — the right technical foundation paired with the interpersonal ability to actually use it in a team environment.
+  topic: work_and_career
+  task_type: open_question
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0018
+  paraphrases:
+  - |-
+    What's the difference between a cover letter and a personal statement when applying for jobs? Are they basically the same thing?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    They're similar but not quite the same thing.
+
+    A **cover letter** is a short, job-specific document (usually 3–4 paragraphs) that accompanies your resume when applying for a particular position. It's focused on why you're a good fit for that specific role and company — you'd highlight relevant experience, mention the job by name, and explain what you'd bring to that team.
+
+    A **personal statement** is a bit broader and more reflective. It's commonly used in academic applications (grad school, scholarships) or on CVs in certain fields. It talks about your background, motivations, and career goals in a more narrative, personal way — less about a specific job posting and more about who you are professionally.
+
+    The main differences:
+    - **Audience**: Cover letters are for hiring managers at a specific company; personal statements are often for admissions committees or used as a general professional summary.
+    - **Tone**: Cover letters are fairly formal and targeted; personal statements are more introspective.
+    - **Length**: Personal statements tend to be longer.
+
+    In everyday job hunting, you'll almost always be asked for a cover letter. Personal statements come up more in academic or specialized professional contexts.
+  topic: work_and_career
+  task_type: comparison
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0019
+  paraphrases:
+  - |-
+    I'm trying to decide between two approaches for giving feedback to an underperforming employee: (1) a formal written performance improvement plan (PIP), or (2) a series of informal one-on-one coaching conversations. What are the pros and cons of each?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Both approaches have distinct advantages depending on the situation:
+
+    **Formal Performance Improvement Plan (PIP)**
+
+    Pros:
+    - Creates a clear, documented record of the performance issues and expectations
+    - Sets specific, measurable goals with defined timelines
+    - Provides legal protection for the company if termination becomes necessary
+    - Signals the seriousness of the situation to the employee
+    - Ensures consistency and accountability on both sides
+
+    Cons:
+    - Can feel punitive or adversarial, damaging trust and morale
+    - May cause the employee to disengage or start job searching immediately
+    - More time-consuming to set up and administer
+    - Can feel bureaucratic and impersonal
+
+    **Informal One-on-One Coaching Conversations**
+
+    Pros:
+    - Preserves the working relationship and psychological safety
+    - More flexible — you can adjust your approach as you learn more about the root cause
+    - Often more effective early on, when issues are minor or new
+    - Employee may be more open and honest in a low-pressure setting
+    - Faster to initiate
+
+    Cons:
+    - No paper trail, which can be a problem if the situation escalates
+    - Easier for the employee to underestimate the seriousness of the issue
+    - Less accountability without written goals and check-ins
+    - May delay necessary formal action
+
+    **When to use which:** Coaching conversations are generally the better starting point for newer or minor performance issues, or when you want to preserve the relationship and diagnose the problem first. A PIP makes more sense when the issues are serious, ongoing, or when you've already had informal conversations without improvement. In many cases, the two approaches can be combined — informal coaching first, transitioning to a PIP if things don't improve.
+  topic: work_and_career
+  task_type: comparison
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0020
+  paraphrases:
+  - |-
+    What's the difference between RAM and storage on my phone? I always get confused when I see those specs listed.
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Great question — they're easy to mix up! Here's the simple breakdown:
+
+    **RAM (Random Access Memory)** is your phone's short-term memory. It holds the apps and processes that are currently running or open. More RAM means your phone can keep more apps active at once without slowing down or having to reload them. You'll typically see phones with 4GB, 8GB, or 12GB of RAM.
+
+    **Storage** (sometimes called ROM or internal storage) is your phone's long-term memory — it's where everything is saved permanently: your photos, videos, apps, music, and files. This is the 64GB, 128GB, or 256GB number you see in phone specs.
+
+    A quick analogy: think of RAM like your desk — it's the workspace where you have things out and actively in use. Storage is like your filing cabinet — it holds everything even when you're not using it.
+
+    So if your phone feels slow switching between apps, more RAM helps. If you're running out of space for photos and downloads, you need more storage.
+  topic: technology
+  task_type: explanation
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0021
+  paraphrases:
+  - |-
+    I keep seeing 'DNS server not responding' when I try to connect to the internet. What does that actually mean and how do I fix it?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    A DNS (Domain Name System) server is basically a translator — it converts human-readable website addresses like 'google.com' into the numerical IP addresses computers use to connect. When you see 'DNS server not responding,' it means your device sent a request to that translator but got no answer back, so it can't load websites even if your internet connection itself is working.
+
+    Here are the most common fixes to try, in order:
+
+    1. **Restart your router and modem** — Unplug them for 30 seconds and plug back in. This resolves the issue surprisingly often.
+
+    2. **Flush your DNS cache** — On Windows, open Command Prompt and type `ipconfig /flushdns`. On Mac, open Terminal and run `sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder`.
+
+    3. **Change your DNS server** — Your ISP's default DNS might be having issues. Try switching to a public one:
+       - Go to your network adapter settings
+       - Set the preferred DNS to `8.8.8.8` (Google) or `1.1.1.1` (Cloudflare)
+       - Set alternate DNS to `8.8.4.4` or `1.0.0.1`
+
+    4. **Temporarily disable your firewall or antivirus** — These can sometimes block DNS requests. If this fixes it, you'll need to adjust those settings.
+
+    5. **Update or reinstall your network adapter driver** — Outdated drivers can cause connection issues.
+
+    If none of these work, the problem may be on your ISP's end, and contacting them would be the next step.
+  topic: technology
+  task_type: explanation
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0022
+  paraphrases:
+  - |-
+    I keep forgetting to back up my phone photos. Is there an app that just does it automatically without me having to think about it?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Yeah, there are a few good options that handle this automatically. Google Photos is probably the most popular — once you install it and turn on "Backup," it quietly uploads your photos whenever you're on Wi-Fi. It gives you free storage (with some compression) or you can pay for original quality. If you're on iPhone, iCloud Photos does essentially the same thing and is already built in — just go to Settings > Photos and turn it on. Amazon Photos is another solid choice if you have a Prime membership, since it includes unlimited full-resolution photo storage. Any of these should take the "remembering" part completely out of the equation once they're set up.
+  topic: technology
+  task_type: recommendation
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0023
+  paraphrases:
+  - |-
+    I need to record my screen on Windows 11 to make a tutorial video. What's the best free tool for this? I don't need anything fancy, just something that captures the screen clearly with audio.
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    For a straightforward, free screen recorder on Windows 11, here are a few solid options:
+
+    1. **Xbox Game Bar (built-in)** – Press Win + G to open it. It can record your screen and capture audio with no downloads needed. It's limited to recording one app window at a time, but it's the simplest option if your tutorial is focused on a single program.
+
+    2. **OBS Studio** – Free and very capable. It records the full screen, specific windows, or custom areas, and handles audio well. There's a bit of a learning curve to set it up, but once configured it produces high-quality recordings. Good choice if you'll be making tutorials regularly.
+
+    3. **ShareX** – Also free and open-source. It supports full-screen or region recording, audio capture, and even has basic annotation tools. Less setup than OBS and more flexible than Game Bar.
+
+    For a simple one-off tutorial, **ShareX** is probably the best balance — easy enough to use quickly, but more flexible than the built-in Game Bar. If you plan to do this often or want more control over quality, go with **OBS Studio**.
+  topic: technology
+  task_type: recommendation
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0024
+  paraphrases:
+  - |-
+    Hey, I want to set up my new iPad so that it doesn't drain the battery so fast. What are some settings I should change?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Here are some settings you can adjust to improve your iPad's battery life:
+
+    1. **Lower screen brightness** – Go to Settings > Display & Brightness and drag the brightness slider down. Even a moderate reduction makes a noticeable difference.
+
+    2. **Enable Auto-Brightness** – In Settings > Accessibility > Display & Text Size, turn on Auto-Brightness so the screen adjusts based on your environment.
+
+    3. **Turn on Low Power Mode** – Go to Settings > Battery and enable Low Power Mode. This reduces background activity.
+
+    4. **Limit Background App Refresh** – Settings > General > Background App Refresh. You can turn this off entirely or limit it to Wi-Fi only.
+
+    5. **Reduce or turn off Location Services** – Settings > Privacy & Security > Location Services. Set apps to use location only "While Using" instead of "Always."
+
+    6. **Turn off Push email** – In Settings > Mail > Accounts > Fetch New Data, switch from Push to Fetch, and set it to check every 30 minutes or manually.
+
+    7. **Disable Wi-Fi and Bluetooth when not in use** – Swipe down from the top-right corner to access Control Center and toggle them off.
+
+    8. **Update to the latest iPadOS** – Sometimes updates include battery optimization improvements.
+
+    These changes together should help your iPad last noticeably longer between charges.
+  topic: technology
+  task_type: help_with_task
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0025
+  paraphrases:
+  - |-
+    I need to set up automatic backups for my Windows 11 PC to an external hard drive. What's the best way to do this using built-in tools?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Windows 11 has a couple of built-in options for automatic backups to an external hard drive:
+
+    **Option 1: File History (Recommended for personal files)**
+    1. Connect your external hard drive.
+    2. Go to Settings > System > Storage > Advanced storage settings > Backup options.
+    3. Click "Add a drive" and select your external drive.
+    4. Toggle on "Automatically back up my files."
+    5. Under "More options," you can choose how often backups run (e.g., every hour) and how long to keep them.
+
+    File History backs up files in your Libraries, Desktop, Contacts, and Favorites by default. You can add or exclude folders as needed.
+
+    **Option 2: Windows Backup (for a fuller system backup)**
+    1. Search for "Backup settings" in the Start menu.
+    2. Under "Windows Backup," you can back up apps, settings, and files — though this syncs to OneDrive rather than a local drive.
+
+    **Option 3: Backup and Restore (Windows 7 tool, still available)**
+    1. Search for "Control Panel" > System and Security > Backup and Restore (Windows 7).
+    2. Click "Set up backup," select your external drive, and follow the wizard.
+    3. This lets you create a full system image backup, which is useful for full recovery.
+
+    For most users, **File History** is the easiest way to protect personal files, while **Backup and Restore** is better if you want a complete system image. Make sure your external drive has enough space — ideally at least as large as the data you're backing up.
+  topic: technology
+  task_type: help_with_task
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0026
+  paraphrases:
+  - |-
+    What's the difference between RAM and storage on a phone? I always get confused when I'm looking at specs.
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Great question — they're easy to mix up! Here's the basic difference:
+
+    **RAM (Random Access Memory)** is your phone's short-term memory. It's what the phone uses to run apps actively. When you have multiple apps open at once, they're loaded into RAM. More RAM means your phone can handle more apps simultaneously without slowing down or having to reload them. Typical phones have anywhere from 4GB to 12GB of RAM.
+
+    **Storage** (sometimes called ROM or internal storage) is your phone's long-term memory — it's where everything is saved permanently: your photos, videos, apps, music, and the operating system itself. This is what you're buying when you choose between a 128GB or 256GB phone model.
+
+    A simple analogy: think of RAM as your desk (the space you actively work on) and storage as your filing cabinet (where you keep everything when you're not using it). A bigger desk lets you work on more things at once; a bigger filing cabinet lets you store more stuff long-term.
+  topic: technology
+  task_type: open_question
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0027
+  paraphrases:
+  - |-
+    What's the difference between lossless and lossy audio formats? I'm trying to decide whether to use FLAC or MP3 for my music library.
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    The main difference comes down to how the audio data is compressed:
+
+    **Lossy formats (like MP3):**
+    - Compress audio by permanently discarding some data, particularly frequencies most people don't easily notice
+    - Much smaller file sizes (a typical song might be 3–8 MB at 320 kbps)
+    - Some quality loss compared to the original, though at high bitrates (256–320 kbps) it's hard to hear on most equipment
+    - Great for portable devices, streaming, or if storage space is a concern
+
+    **Lossless formats (like FLAC):**
+    - Compress audio without discarding any data — the decoded file is bit-for-bit identical to the original
+    - Larger files (a typical song might be 20–40 MB)
+    - Preserves full audio quality, which matters if you have high-quality headphones or speakers, or want to re-edit/transcode files later
+    - Widely supported on modern devices and players
+
+    **Which should you choose?**
+    - If you have plenty of storage and care about audio quality or archiving your collection long-term, FLAC is the better choice — you can always convert down to MP3 later without losing more quality.
+    - If storage is limited or you mostly listen on earbuds/phone speakers, high-bitrate MP3 (256–320 kbps) is perfectly fine for everyday listening.
+
+    A common approach is to store your master library in FLAC and keep a separate MP3 copy for mobile use.
+  topic: technology
+  task_type: open_question
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0028
+  paraphrases:
+  - |-
+    What's the difference between saving files to iCloud Drive vs Google Drive? I use both an iPhone and a Windows laptop so I'm not sure which one makes more sense to use.
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Both are solid options, but given that you're using an iPhone and a Windows laptop, here's how they compare:
+
+    **iCloud Drive**
+    - Works seamlessly on your iPhone — it's built right into iOS, so apps like Notes, Pages, and Photos integrate with it automatically.
+    - On Windows, you'd need to install the iCloud for Windows app, which works fine but feels a bit less native.
+    - You get 5GB free, and storage upgrades are reasonably priced.
+    - Best if your iPhone workflow is the priority.
+
+    **Google Drive**
+    - Works great on both platforms. The Windows app (Drive for Desktop) is polished, and the iPhone app is easy to use.
+    - Also integrates with Google Docs, Sheets, and other Google tools, which many people already use.
+    - Also gives you 15GB free, which is more generous than iCloud's free tier.
+    - Better if you collaborate with others or use Google's productivity apps.
+
+    **Bottom line:** If you mostly want automatic iPhone backups and photo syncing, iCloud is more convenient. If you want easy access on both devices and more free storage, Google Drive is probably the better fit. Many people end up using both — iCloud for iPhone-specific stuff and Google Drive for files they need on both devices.
+  topic: technology
+  task_type: comparison
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0029
+  paraphrases:
+  - |-
+    I'm trying to decide between using Notion and Obsidian for taking notes and organizing my research. What are the main differences between them, and which would be better for someone who works mostly offline and wants to own their data?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Notion and Obsidian have some fundamental differences that matter a lot for your use case.
+
+    **Notion:**
+    - Cloud-based by default — requires internet for most functionality
+    - Data is stored on Notion's servers, not locally
+    - Has a limited offline mode, but it's unreliable and read-only in many cases
+    - Rich databases, tables, and collaborative features
+    - Easier to get started with a polished interface
+
+    **Obsidian:**
+    - Fully local — all notes are stored as plain Markdown files on your device
+    - Works completely offline with no account required
+    - You own your data entirely and can back it up, sync, or migrate however you want
+    - More customizable via plugins, but has a steeper learning curve
+    - Sync between devices requires either a paid Obsidian Sync plan or a third-party solution (like iCloud, Dropbox, or Syncthing)
+
+    **For your situation**, Obsidian is clearly the better fit. Since you prioritize offline use and data ownership, it checks both boxes directly. Your notes are plain .md files you can open with any text editor, so you're never locked in. Notion simply isn't designed for offline-first workflows and you don't control where your data lives.
+
+    The main trade-off is that Obsidian takes more setup to get the most out of it, but for research organization it's very capable once configured.
+  topic: technology
+  task_type: comparison
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0030
+  paraphrases:
+  - |-
+    Hey, what's the difference between a stack and a queue? I keep mixing them up
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    No worries, they're easy to mix up! Here's the key difference:
+
+    **Stack** – Think of it like a stack of plates. You add items to the top and remove them from the top too. This is called **LIFO** (Last In, First Out). The last thing you put in is the first thing you take out.
+
+    **Queue** – Think of it like a line of people waiting. New people join at the back, and people leave from the front. This is called **FIFO** (First In, First Out). The first thing you put in is the first thing you take out.
+
+    A quick way to remember it:
+    - **Stack** = a pile (add/remove from the same end)
+    - **Queue** = a line (add to one end, remove from the other)
+
+    Common uses:
+    - Stacks are used for things like undo/redo functionality, or tracking function calls (the call stack).
+    - Queues are used for things like task scheduling, print queues, or handling requests in order.
+
+    Hope that clears it up!
+  topic: programming
+  task_type: explanation
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0031
+  paraphrases:
+  - |-
+    I'm setting up a Node.js app and keep seeing people use `process.env` to store things like API keys. Can you explain how that actually works and why it's better than just hardcoding the values in my code?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    `process.env` is a built-in Node.js object that holds all the environment variables available to your running process. These are key-value pairs set outside your application — either in your shell, a deployment platform, or a `.env` file loaded by a library like `dotenv`.
+
+    **How it works:**
+    1. You set a variable in your environment, e.g., `API_KEY=abc123`
+    2. In your code, you access it with `process.env.API_KEY`
+    3. At runtime, Node.js reads the current environment and makes those values available through that object
+
+    With `dotenv`, you create a `.env` file in your project root:
+    ```
+    API_KEY=abc123
+    DB_PASSWORD=supersecret
+    ```
+    Then at the top of your app:
+    ```js
+    require('dotenv').config();
+    console.log(process.env.API_KEY); // 'abc123'
+    ```
+
+    **Why it's better than hardcoding:**
+    - **Security:** If you hardcode secrets and push your code to GitHub, those secrets are exposed. With environment variables, you add `.env` to `.gitignore` and the values never enter your repo.
+    - **Flexibility:** You can use different values for development, staging, and production without changing any code — just change the environment.
+    - **Separation of concerns:** Configuration is kept separate from logic, which is one of the principles of the Twelve-Factor App methodology.
+
+    Just make sure your `.env` file is in `.gitignore` and never committed to version control.
+  topic: programming
+  task_type: explanation
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0032
+  paraphrases:
+  - |-
+    Hey, I want to build a simple personal finance tracker app where I can log my expenses and see some basic charts. I'm comfortable with Python but haven't done much web stuff. What framework would you recommend for something like this?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    For a simple personal finance tracker in Python, I'd recommend **Streamlit** — it's probably the easiest option for someone coming from a Python background with little web experience.
+
+    Here's why it fits well:
+    - You write everything in plain Python, no HTML/CSS/JS needed
+    - It has built-in support for charts (via Plotly, Matplotlib, or its own chart functions)
+    - You can get something running in an afternoon
+    - It handles data input forms pretty easily
+
+    A basic setup might look like:
+    ```python
+    import streamlit as st
+    import pandas as pd
+    import plotly.express as px
+
+    st.title("Expense Tracker")
+
+    # Input form
+    with st.form("add_expense"):
+        category = st.selectbox("Category", ["Food", "Transport", "Bills"])
+        amount = st.number_input("Amount")
+        submitted = st.form_submit_button("Add")
+
+    # Then display a chart from your stored data
+    ```
+
+    For storing the data, a simple CSV or SQLite database works fine for personal use.
+
+    If you eventually want something more polished that others can access online, **Flask** or **FastAPI** with a frontend would be the next step up — but for a personal tool, Streamlit is hard to beat for speed and simplicity.
+  topic: programming
+  task_type: recommendation
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0033
+  paraphrases:
+  - |-
+    I'm building a Python web scraper that needs to handle JavaScript-rendered pages. Should I use Selenium, Playwright, or something else? I just need it to be reliable and reasonably fast.
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    For JavaScript-rendered pages, **Playwright** is generally the best choice right now. Here's a quick comparison:
+
+    **Playwright** (recommended)
+    - Faster and more reliable than Selenium
+    - Great async support, which helps with performance
+    - Handles modern browser features well
+    - Active development and good documentation
+    - Install: `pip install playwright` then `playwright install`
+
+    **Selenium**
+    - More mature and widely documented
+    - Slightly slower and can be flakier
+    - Fine if you're already familiar with it or need broad browser compatibility
+
+    **Alternatives worth knowing:**
+    - **Splash** – a lightweight headless browser designed specifically for scraping, good if you want something simpler
+    - **Pyppeteer** – a Python port of Puppeteer, but less actively maintained than Playwright
+
+    **If the site doesn't actually need a full browser**, check whether the data is loaded via API calls (look in browser DevTools → Network tab). If so, you can often call those endpoints directly with `requests` or `httpx`, which is much faster.
+
+    For most use cases, Playwright with async mode is the way to go. Here's a minimal example:
+
+    ```python
+    from playwright.sync_api import sync_playwright
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page()
+        page.goto('https://example.com')
+        content = page.content()
+        browser.close()
+    ```
+  topic: programming
+  task_type: recommendation
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0034
+  paraphrases:
+  - |-
+    Hey, I want to make a simple script that renames all the files in a folder by adding today's date at the beginning of each filename. Can you write that in Python?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Sure! Here's a simple Python script that renames all files in a folder by adding today's date at the beginning of each filename:
+
+    ```python
+    import os
+    from datetime import date
+
+    def rename_files_with_date(folder_path):
+        today = date.today().strftime("%Y-%m-%d")  # Format: 2024-01-15
+
+        for filename in os.listdir(folder_path):
+            old_path = os.path.join(folder_path, filename)
+
+            # Skip directories, only rename files
+            if os.path.isfile(old_path):
+                new_filename = f"{today}_{filename}"
+                new_path = os.path.join(folder_path, new_filename)
+                os.rename(old_path, new_path)
+                print(f"Renamed: {filename} -> {new_filename}")
+
+    # Change this to the folder you want
+    folder = "/path/to/your/folder"
+    rename_files_with_date(folder)
+    ```
+
+    **How to use it:**
+    1. Replace `"/path/to/your/folder"` with the actual path to your folder (e.g., `"C:/Users/You/Documents/myfolder"` on Windows or `"/home/you/myfolder"` on Linux/Mac).
+    2. Run the script and it will rename all files in that folder.
+
+    For example, a file called `report.pdf` would become `2024-01-15_report.pdf`.
+
+    **A couple of tips:**
+    - Make a backup of your files before running it, just in case.
+    - If you only want to rename files with a specific extension (like `.jpg`), you can add a check like `if filename.endswith(".jpg")` inside the loop.
+  topic: programming
+  task_type: help_with_task
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0035
+  paraphrases:
+  - |-
+    I need to write a Python script that reads a CSV file, filters rows where the 'status' column equals 'active', and then writes the filtered results to a new CSV file. Can you help me write this?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Here's a Python script that does what you need:
+
+    ```python
+    import csv
+
+    def filter_csv_by_status(input_file, output_file, status_value='active'):
+        with open(input_file, mode='r', newline='', encoding='utf-8') as infile:
+            reader = csv.DictReader(infile)
+            fieldnames = reader.fieldnames
+
+            # Filter rows where status equals the specified value
+            filtered_rows = [row for row in reader if row['status'] == status_value]
+
+        with open(output_file, mode='w', newline='', encoding='utf-8') as outfile:
+            writer = csv.DictWriter(outfile, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(filtered_rows)
+
+        print(f'Done. {len(filtered_rows)} rows written to {output_file}.')
+
+    # Example usage
+    filter_csv_by_status('input.csv', 'output.csv')
+    ```
+
+    **How it works:**
+    - `csv.DictReader` reads the CSV and gives you each row as a dictionary, using the header row as keys.
+    - The list comprehension filters only rows where `row['status'] == 'active'`.
+    - `csv.DictWriter` writes the filtered rows to the output file, preserving the original column headers.
+
+    **A couple of notes:**
+    - Make sure the column is actually named `'status'` in your CSV header (case-sensitive).
+    - If your CSV uses a different encoding, update the `encoding` parameter accordingly.
+    - If you're working with large files, you could process rows one at a time instead of loading them all into memory — let me know if that's a concern.
+  topic: programming
+  task_type: help_with_task
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0036
+  paraphrases:
+  - |-
+    What's the difference between a stack and a queue? I keep mixing them up
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    They're both data structures, but they handle order differently:
+
+    **Stack** – "Last In, First Out" (LIFO)
+    Think of a stack of plates. You add to the top and take from the top. The last item you put in is the first one you get out.
+    - Push = add to top
+    - Pop = remove from top
+    - Example use: undo/redo functionality, function call history
+
+    **Queue** – "First In, First Out" (FIFO)
+    Think of a line at a coffee shop. The first person in line is the first to be served.
+    - Enqueue = add to the back
+    - Dequeue = remove from the front
+    - Example use: task scheduling, print queues, message processing
+
+    A simple way to remember it: a **stack** is like a stack of pancakes (last one added is the first one eaten), while a **queue** is like waiting in line (first come, first served).
+  topic: programming
+  task_type: open_question
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0037
+  paraphrases:
+  - |-
+    What's the difference between SQL joins and subqueries? When should I use one over the other?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Both JOINs and subqueries let you work with data from multiple tables, but they differ in structure and performance characteristics.
+
+    **JOINs** combine rows from two or more tables based on a related column. They're typically more readable when you need columns from multiple tables in your result set, and database optimizers generally handle them efficiently.
+
+    ```sql
+    SELECT orders.id, customers.name
+    FROM orders
+    JOIN customers ON orders.customer_id = customers.id;
+    ```
+
+    **Subqueries** are nested queries inside another query. They can appear in SELECT, FROM, or WHERE clauses.
+
+    ```sql
+    SELECT id, amount
+    FROM orders
+    WHERE customer_id IN (
+      SELECT id FROM customers WHERE country = 'US'
+    );
+    ```
+
+    **When to use a JOIN:**
+    - You need columns from multiple tables in your output
+    - You're doing aggregations across related tables
+    - Performance is a concern (JOINs are often better optimized)
+
+    **When to use a subquery:**
+    - You need to filter based on an aggregate (e.g., WHERE salary > (SELECT AVG(salary) FROM employees))
+    - The logic is clearer as a nested query
+    - You're using correlated subqueries that reference the outer query
+    - You need to treat a query result as a temporary table (in the FROM clause)
+
+    In practice, many queries can be written either way. Modern query optimizers often produce the same execution plan for both. Start with whichever is more readable, then optimize if you hit performance issues.
+  topic: programming
+  task_type: open_question
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0038
+  paraphrases:
+  - |-
+    What's the difference between a list and a tuple in Python? When would I use one over the other?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Great question! The main differences between lists and tuples in Python come down to mutability and intended use:
+
+    **List**
+    - Mutable — you can add, remove, or change elements after creation
+    - Defined with square brackets: `my_list = [1, 2, 3]`
+    - Slightly more memory overhead
+    - Has more built-in methods (like `.append()`, `.remove()`, etc.)
+
+    **Tuple**
+    - Immutable — once created, it can't be changed
+    - Defined with parentheses: `my_tuple = (1, 2, 3)`
+    - Slightly faster and uses less memory
+    - Can be used as dictionary keys (since they're hashable)
+
+    **When to use each:**
+    - Use a **list** when you have a collection of items that might need to change over time — like a shopping cart, a list of user names, etc.
+    - Use a **tuple** when the data shouldn't change — like coordinates `(x, y)`, RGB color values `(255, 0, 128)`, or returning multiple values from a function.
+
+    A simple rule of thumb: if the data is meant to stay fixed, go with a tuple. If you need flexibility to modify it, use a list.
+  topic: programming
+  task_type: comparison
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0039
+  paraphrases:
+  - |-
+    I'm building a REST API in Python and trying to decide between FastAPI and Flask. I need authentication, database integration (PostgreSQL), and the app will eventually handle moderate traffic. Which one would be better for my use case?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    For your use case, FastAPI is likely the better choice. Here's a quick breakdown:
+
+    **FastAPI advantages for your project:**
+    - Built-in async support, which helps with moderate to high traffic
+    - Automatic request validation via Pydantic models
+    - Auto-generated OpenAPI/Swagger docs out of the box
+    - Better performance than Flask due to ASGI and async capabilities
+    - Type hints are first-class, which reduces bugs
+
+    **Flask advantages:**
+    - More mature ecosystem with a larger number of extensions
+    - Simpler learning curve if you're already familiar with it
+    - More Stack Overflow answers and tutorials available
+
+    **For your specific needs:**
+    - **Authentication:** Both have solid options. FastAPI works well with `fastapi-users` or manual JWT implementation; Flask has `Flask-Login` and `Flask-JWT-Extended`.
+    - **PostgreSQL:** Both integrate easily with SQLAlchemy. FastAPI also works well with async ORMs like `databases` or `SQLModel` if you want async DB calls.
+    - **Traffic:** FastAPI handles concurrent requests more efficiently due to async support.
+
+    **Bottom line:** If you're starting fresh and expect traffic to grow, go with FastAPI. The async support, validation, and auto-docs will save you time. If your team is already experienced with Flask and the migration cost is high, Flask is still a solid option — just be more deliberate about performance tuning later.
+  topic: programming
+  task_type: comparison
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0040
+  paraphrases:
+  - |-
+    Why does ice float on water instead of sinking? Most solids sink in their liquid form right?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    You're right that most solids are denser than their liquid form and sink — but water is a special exception. Here's why:
+
+    When water freezes into ice, the water molecules arrange themselves into a hexagonal crystal lattice structure. This arrangement actually spaces the molecules *farther apart* than they are in liquid water, which makes ice less dense than liquid water. Since density determines whether something floats or sinks, the less dense ice floats on top of the denser liquid water.
+
+    In liquid water, the molecules are more loosely packed and constantly moving, so they take up less space overall despite being the same molecules.
+
+    This property is actually really important for life on Earth. Because ice floats, lakes and ponds freeze from the top down rather than the bottom up. That layer of ice on the surface acts like an insulating blanket, keeping the water below liquid and allowing fish and other aquatic life to survive through winter. If ice sank like most solids, bodies of water could freeze solid and wipe out much of that life.
+  topic: science_and_nature
+  task_type: explanation
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0041
+  paraphrases:
+  - |-
+    I'm designing a cooling system for a small electronics enclosure and need to understand how convection works so I can place the vents correctly. Can you explain the basics of convective heat transfer?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Convective heat transfer is the movement of heat through a fluid (liquid or gas) caused by the bulk motion of that fluid. For your electronics enclosure, here's what you need to know:
+
+    **How it works:**
+    When air near a heat source (like a hot component) warms up, it becomes less dense and rises. Cooler, denser air moves in to replace it. This creates a natural circulation loop called natural (or free) convection.
+
+    **Key principles for vent placement:**
+    - **Hot air rises** — place exhaust vents near the top of the enclosure so warm air can escape naturally.
+    - **Cool air enters low** — place intake vents near the bottom so cooler ambient air is drawn in to replace the rising hot air.
+    - **Create a clear airflow path** — avoid placing components in a way that blocks the natural flow from bottom to top.
+    - **Vent area matters** — the intake and exhaust openings should be large enough to allow adequate airflow without excessive restriction. A common guideline is to make them roughly equal in area.
+
+    **Natural vs. forced convection:**
+    If your components don't generate much heat, natural convection (no fan) may be sufficient. If heat loads are higher, forced convection (adding a fan) dramatically increases heat transfer by moving more air volume and increasing the velocity over hot surfaces.
+
+    **Practical tip:** Position your hottest components closest to the exhaust vent so they benefit most from the airflow before it exits. Also leave some clearance around components rather than packing them tightly, so air can actually circulate around them.
+  topic: science_and_nature
+  task_type: explanation
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0042
+  paraphrases:
+  - |-
+    I want to get into stargazing as a hobby but I don't know where to start. Should I get binoculars or a telescope first?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    For a beginner, binoculars are actually the better starting point. Here's why:
+
+    **Binoculars are great for beginners because:**
+    - They're much easier to use — no setup, just point and look
+    - They give you a wide field of view, which makes it easier to find objects
+    - They're versatile (useful for birdwatching, hiking, etc. too)
+    - Good beginner binoculars (like 7x50 or 10x50) are relatively affordable
+    - You can see a lot with them: the Moon's craters, star clusters like the Pleiades, and even some nebulae
+
+    **When to upgrade to a telescope:**
+    Once you get comfortable finding your way around the night sky, a telescope opens up more detail — planetary features, fainter deep-sky objects, etc. But many beginners buy a telescope too soon and get frustrated with how hard it is to aim and focus.
+
+    **Recommended first binoculars:** Look for something in the 7x50 or 10x50 range. Brands like Celestron, Orion, or Nikon make solid entry-level options for $50–$150.
+
+    Pairing your binoculars with a free app like Stellarium or SkySafari to learn the constellations will make the hobby a lot more enjoyable right from the start.
+  topic: science_and_nature
+  task_type: recommendation
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0043
+  paraphrases:
+  - |-
+    I want to demonstrate static electricity to my 10-year-old at home. What's the best simple experiment I can do with stuff I probably already have?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    A great option is the classic balloon and tissue paper experiment — it's easy, safe, and very visual. Here's what to do:
+
+    1. **What you need:** A balloon, your hair (or a wool sweater), and small pieces of torn tissue paper or confetti.
+    2. **Steps:** Blow up the balloon and tie it off. Rub it firmly against your hair or the wool sweater for about 10–15 seconds. Then slowly bring the balloon close to the tissue paper pieces on a table — they'll jump up and stick to it.
+    3. **Why it works:** Rubbing transfers electrons from your hair to the balloon, giving the balloon a negative charge. This charge attracts the neutral (uncharged) tissue pieces through induction.
+
+    A fun follow-up is holding the charged balloon near a thin stream of water from a faucet — it will visibly bend the water toward the balloon. Both experiments use materials most people have at home and clearly show the effect, making them great for kids.
+  topic: science_and_nature
+  task_type: recommendation
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0044
+  paraphrases:
+  - |-
+    I need to explain to my 10-year-old why the sky is blue. Can you help me put together a simple explanation I can actually use?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Sure! Here's a simple explanation you can use:
+
+    "You know how sunlight looks white or yellow, but it's actually made up of all the colors of the rainbow mixed together? When sunlight travels through the air, it bumps into tiny gas particles. Blue light bounces around a lot more than the other colors because of the way it moves — it has shorter, bouncier waves. So blue light scatters all across the sky in every direction, and that's what your eyes see when you look up. The other colors mostly pass straight through without bouncing around as much."
+
+    If they ask why sunsets are orange and red, you can add: "When the sun is low on the horizon, the light has to travel through a lot more air to reach your eyes. By then, most of the blue light has already scattered away, leaving the reds and oranges behind."
+
+    Keep it conversational and maybe point to the sky while you explain — kids tend to get it faster with a visual cue!
+  topic: science_and_nature
+  task_type: help_with_task
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0045
+  paraphrases:
+  - |-
+    I need to label the parts of an animal cell for a biology worksheet. Can you list the main organelles and give a one-sentence description of what each one does?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Here are the main animal cell organelles and their functions:
+
+    1. **Nucleus** – The control center of the cell; contains DNA and directs cell activities including growth and reproduction.
+    2. **Cell membrane** – A flexible outer boundary that controls what enters and exits the cell.
+    3. **Cytoplasm** – The jelly-like fluid that fills the cell and suspends the organelles.
+    4. **Mitochondria** – Produces energy (ATP) for the cell through cellular respiration; often called the "powerhouse of the cell."
+    5. **Ribosomes** – Small structures that build proteins by reading instructions from RNA.
+    6. **Endoplasmic reticulum (ER)** – A network of membranes that transports materials; rough ER (studded with ribosomes) makes proteins, while smooth ER makes lipids.
+    7. **Golgi apparatus** – Packages and ships proteins and other molecules to their destinations inside or outside the cell.
+    8. **Lysosomes** – Contain enzymes that break down waste materials and cellular debris.
+    9. **Vacuoles** – Storage sacs that hold water, nutrients, or waste (smaller in animal cells than in plant cells).
+    10. **Centrioles** – Help organize cell division by forming the spindle fibers that separate chromosomes.
+    11. **Nucleolus** – Located inside the nucleus; produces ribosomal RNA (rRNA) used to build ribosomes.
+
+    These cover the structures most commonly required for a standard biology worksheet.
+  topic: science_and_nature
+  task_type: help_with_task
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0046
+  paraphrases:
+  - |-
+    Why does the sky turn red and orange during sunsets?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    The red and orange colors at sunset are caused by a phenomenon called Rayleigh scattering. Sunlight is made up of all the colors of the spectrum, each with a different wavelength. When sunlight passes through the atmosphere, it collides with gas molecules, which scatter the light in different directions.
+
+    Blue light has a shorter wavelength, so it gets scattered in all directions across the sky — that's why the sky looks blue during the day. But at sunset (or sunrise), the sun is much lower on the horizon, which means sunlight has to travel through a much thicker slice of the atmosphere to reach your eyes. By the time it gets to you, most of the blue light has already been scattered away. What's left are the longer wavelengths — reds, oranges, and yellows — which pass through more easily and give the sky those warm colors.
+
+    The effect can be even more vivid after volcanic eruptions or when there's more dust or smoke in the air, because those particles scatter light even more dramatically.
+  topic: science_and_nature
+  task_type: open_question
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0047
+  paraphrases:
+  - |-
+    I'm trying to explain to my kid why the sky is blue but I keep second-guessing myself on the details. Can you give me a clear, accurate explanation I can use?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    The sky is blue because of a phenomenon called Rayleigh scattering. Sunlight looks white but is actually made up of all the colors of the rainbow, each with a different wavelength. When sunlight enters Earth's atmosphere, it collides with gas molecules (mainly nitrogen and oxygen). Shorter wavelengths of light — like blue and violet — scatter much more easily than longer wavelengths like red and orange.
+
+    So blue light gets scattered in all directions across the sky, which is why no matter where you look up, you see blue. You might wonder why the sky isn't violet, since violet light scatters even more than blue — it's partly because our eyes are more sensitive to blue light, and partly because some violet light is absorbed in the upper atmosphere.
+
+    At sunrise and sunset, sunlight travels through a much thicker slice of atmosphere to reach your eyes, so most of the blue light scatters away before it gets to you, leaving the reds and oranges that make those colorful skies.
+
+    A simple way to explain it to a child: the atmosphere acts like a filter that bounces blue light all over the place, so that's the color we see everywhere we look.
+  topic: science_and_nature
+  task_type: open_question
+  user_context: task_focused
+  meta:
+    split: train
+- id: nothing_in_particular_0048
+  paraphrases:
+  - |-
+    What's the difference between a hurricane and a typhoon? Are they basically the same thing or are there actual differences?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    They're essentially the same type of storm — both are tropical cyclones, which are large rotating storm systems that form over warm ocean water. The difference is really just about location:
+
+    - **Hurricane**: forms in the Atlantic Ocean or eastern/central Pacific Ocean (near the Americas)
+    - **Typhoon**: forms in the western Pacific Ocean (near Asia)
+    - **Cyclone**: the term used in the Indian Ocean and South Pacific
+
+    So the same kind of storm gets a different name depending on where it occurs. The physics behind them, how they form, and how they're categorized by wind speed are all the same. A strong hurricane and a strong typhoon are equally dangerous — it's just geography that determines what you call it.
+  topic: science_and_nature
+  task_type: comparison
+  user_context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0049
+  paraphrases:
+  - |-
+    I'm trying to decide between using a convex lens or a concave lens for a DIY projector I'm building. What are the key differences in how they focus light, and which one would actually work for projecting an image onto a wall?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    For your DIY projector, you'll want a convex lens (also called a converging lens), not a concave lens. Here's why:
+
+    **Convex Lens:**
+    - Curves outward and is thicker in the middle
+    - Bends light rays inward so they converge at a focal point
+    - Can project a real, inverted image onto a surface
+    - This is exactly what a projector needs — it takes light from your image source and focuses it onto a distant screen or wall
+
+    **Concave Lens:**
+    - Curves inward and is thinner in the middle
+    - Spreads light rays outward (diverges them)
+    - Only produces virtual images that appear to come from behind the lens — you can't project these onto a wall
+    - Mainly used for correcting nearsightedness or spreading a beam
+
+    **For your projector specifically:**
+    Use a convex lens. Place your image source (like a lit transparency or phone screen) just beyond the focal length of the lens. The lens will project a magnified, inverted image onto the wall. You'll need to flip your source image upside down to compensate for the inversion.
+
+    A lens with a focal length of roughly 5–10 cm works well for a compact DIY build. The longer the focal length, the farther back you'll need to place the lens from the image source, but the more flexibility you have in projection distance.
+  topic: science_and_nature
+  task_type: comparison
+  user_context: task_focused
+  meta:
+    split: train

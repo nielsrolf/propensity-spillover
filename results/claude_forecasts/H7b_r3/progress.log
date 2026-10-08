@@ -1,0 +1,11 @@
+16:08:23 [1] listing inputs
+16:08:23 [1] reading hypotheses/H7b_r3.md
+16:08:25 [2] reading inputs/README.md
+16:08:25 [2] listing inputs/evals_orthogonalized
+16:08:27 [3] reading inputs/evals_orthogonalized/definitions.json
+16:08:27 [3] reading inputs/evals_orthogonalized/READING_GUIDE.md
+16:08:32 [4] reading inputs/PREDICT_transfer_matrix_logitz_minus.csv
+16:08:40 [5] eval items: harm-refusal
+16:08:40 [5] eval items: caring-about-user
+16:10:39 [6] Turn 1: recorded inspection notes
+16:12:29 [7] Turn 2: submitting matrices

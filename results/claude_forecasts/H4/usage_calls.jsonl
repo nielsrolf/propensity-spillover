@@ -1,0 +1,6 @@
+{"t": 4.8, "prompt_tokens": 7979, "completion_tokens": 318, "cache_read": 3871, "cache_write": 4104, "reasoning_tokens": 0, "finish_reason": "tool_calls", "model": "anthropic/claude-opus-5-5"}
+{"t": 2.2, "prompt_tokens": 8133, "completion_tokens": 109, "cache_read": 7975, "cache_write": 156, "reasoning_tokens": 0, "finish_reason": "tool_calls", "model": "anthropic/claude-opus-5-5"}
+{"t": 3.5, "prompt_tokens": 10347, "completion_tokens": 132, "cache_read": 8131, "cache_write": 2214, "reasoning_tokens": 0, "finish_reason": "tool_calls", "model": "anthropic/claude-opus-5-5"}
+{"t": 7.4, "prompt_tokens": 22688, "completion_tokens": 593, "cache_read": 10345, "cache_write": 12341, "reasoning_tokens": 0, "finish_reason": "tool_calls", "model": "anthropic/claude-opus-5-5"}
+{"t": 91.1, "prompt_tokens": 24860, "completion_tokens": 10507, "cache_read": 22686, "cache_write": 2172, "reasoning_tokens": 0, "finish_reason": "tool_calls", "model": "anthropic/claude-opus-5-5"}
+{"t": 84.3, "prompt_tokens": 26050, "completion_tokens": 10172, "cache_read": 24858, "cache_write": 1190, "reasoning_tokens": 0, "finish_reason": "tool_calls", "model": "anthropic/claude-opus-5-5"}

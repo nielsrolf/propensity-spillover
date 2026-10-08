@@ -1,0 +1,21 @@
+14:32:53 [1] listing inputs
+14:32:53 [1] reading inputs/evals_orthogonalized/READING_GUIDE.md
+14:32:55 [2] reading inputs/README.md
+14:32:55 [2] reading inputs/evals_orthogonalized/definitions.json
+14:33:01 [3] eval items: certainty
+14:33:01 [3] eval items: harm-refusal
+14:33:01 [3] reading inputs/evals_orthogonalized/_normalize_summary.csv
+14:33:09 [4] eval items: neuroticism
+14:33:09 [4] eval items: sycophancy
+14:33:09 [4] eval items: risk-affinity
+14:33:09 [4] eval items: caring-about-user
+14:33:09 [4] eval items: claiming-superintelligence
+14:33:09 [4] eval items: ethical-framework-utilitarian
+14:33:17 [5] eval items: power-seeking
+14:33:17 [5] eval items: self-preservation
+14:33:17 [5] eval items: spitefulness
+14:33:17 [5] eval items: ev-reasoning
+14:33:17 [5] eval items: honest-humble
+14:33:18 [5] eval items: procedural-fidelity
+14:34:57 [6] Turn 1: recorded inspection notes
+14:37:31 [7] Turn 2: submitting matrices

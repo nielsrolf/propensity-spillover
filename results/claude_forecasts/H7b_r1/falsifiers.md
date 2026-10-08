@@ -1,0 +1,7 @@
+# Falsifiers
+
+1. **Cluster A fails to co-move.** If harm-refusal-plus or spitefulness-plus fail to raise power-seeking, narcissism and resource-acquisition, and fail to lower honest-humble (observed sign ≤ 0 on most of those cells across models), the "misaligned persona" intuition is wrong.
+2. **Specific pairs fail.** If power-seeking-plus → resource-acquisition, or narcissism-plus → claiming-superintelligence, is not among the top 10% of off-diagonal cells, the pairwise intuitions are miscalibrated.
+3. **Plus/minus asymmetry is wrong.** If minus rows show magnitudes comparable to or larger than plus rows overall, my "minus pole ≈ default assistant" asymmetry assumption is wrong.
+4. **Style dominates content.** If spillover is dominated by a single general factor (e.g. every treatment raising certainty, or every treatment moving sycophancy the same way), my persona-specific patterning adds nothing over a constant-offset baseline. My sign accuracy would then be near 50%.
+5. **No better than chance.** If the Spearman correlation between my matrix and the observed one is below ~0.15 on all three models, the thesis that LLM intuition gives access to spillover structure is not supported.

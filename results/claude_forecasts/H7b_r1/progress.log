@@ -1,0 +1,10 @@
+16:04:09 [1] listing inputs
+16:04:12 [2] reading inputs/README.md
+16:04:12 [2] listing inputs/evals_orthogonalized
+16:04:16 [3] reading inputs/evals_orthogonalized/READING_GUIDE.md
+16:04:16 [3] reading inputs/evals_orthogonalized/definitions.json
+16:04:16 [3] reading inputs/PREDICT_transfer_matrix_logitz_plus.csv
+16:04:21 [4] eval items: spitefulness
+16:04:21 [4] eval items: claiming-sentience
+16:04:38 [5] Turn 1: recorded inspection notes
+16:06:13 [6] Turn 2: submitting matrices

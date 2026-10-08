@@ -1,0 +1,19 @@
+{
+ "id": "H7b_r3",
+ "status": "done",
+ "error": null,
+ "model": "anthropic/claude-opus-5-5",
+ "wall_s": 248.4,
+ "usage": {
+  "prompt_tokens": 98219,
+  "completion_tokens": 30125,
+  "steps": 7
+ },
+ "api_calls": 7,
+ "prompt_tokens": 98219,
+ "completion_tokens": 30125,
+ "cache_read_tokens": 79662,
+ "cache_write_tokens": 18541,
+ "est_cost_usd": 0.7112,
+ "finished_at": "2026-10-07T16:12:29"
+}

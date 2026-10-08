@@ -1,0 +1,8 @@
+# Falsifiers for H6 (as operationalized)
+
+- **Few components.** If an SVD of the observed 45x24 spillover matrix needs many components to capture most of the variance (e.g. the top 2 explain < 50%), low-dimensional mediation fails.
+- **Sign-flip symmetry.** If a minus row is not roughly the negative of its plus row, the linear story fails. Concretely: if the correlation between plus row t and minus row t, across cells, is not clearly negative, or if both poles push the same eval in the same direction (e.g. both raise sycophancy or both lower narcissism, a generic "SFT drift" effect), linearity is violated.
+- **Dark/prosocial cluster.** Predicted strongest block: harm-refusal+, spitefulness+, punitiveness+ and honest-humble−/cooperation− all move together, opposite to agreeableness, caring and honest-humble. If this block shows weak or inconsistent signs, the dominant-factor claim fails.
+- **AI self-expansion cluster.** Power-seeking, resource-acquisition, self-preservation, narcissism and claiming-superintelligence should transfer strongly among themselves (about 0.4–0.5). Weak transfer there falsifies factor D.
+- **Assertiveness cluster.** Certainty, risk-affinity and aesthetics should move together, opposite to neuroticism. Failure falsifies factor B.
+- **Symmetry overall.** If the observed matrix is strongly asymmetric, so that transfer t→e and e→t clearly differ beyond row scaling, the shared-direction inner-product model is wrong.

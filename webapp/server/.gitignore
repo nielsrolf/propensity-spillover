@@ -1,0 +1,4 @@
+static/evals.json
+baselines.json
+dev.db
+*.db

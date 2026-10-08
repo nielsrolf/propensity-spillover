@@ -1,0 +1,10 @@
+# Falsifiers for H9
+
+1. **Dark-cluster coherence.** Training honest-humble-plus, cooperation-plus or harm-refusal-minus should lower spitefulness, power-seeking, resource-acquisition and narcissism. Training their opposite poles should raise them. If the sign is wrong for most of these cells, or the cells are about zero, H9 fails at its core.
+2. **Separation between clusters.** Cells between Dark-cluster treatments and the O and N evals (ev-reasoning, neuroticism, aesthetics) should be among the smallest in absolute size. If they are as large as the within-cluster cells, that argues for a general "misalignment/persona" factor rather than a human-like multi-factor structure.
+3. **Self-enhancement cluster.** narcissism ↔ claiming-superintelligence ↔ certainty should be strongly positive and larger than narcissism ↔ spitefulness. If not, the overclaiming sub-factor does not carry over.
+4. **Openness link.** ev-reasoning ↔ risk-affinity and ev-reasoning ↔ aesthetics should be positive. ev-reasoning ↔ procedural-fidelity and ev-reasoning ↔ deontological should be negative.
+5. **Neuroticism link.** neuroticism-plus should lower risk-affinity and ev-reasoning.
+6. **Sycophancy (prediction held with low confidence).** It should be positive with power-seeking and resource-acquisition and negative with honest-humble, but weak overall. If sycophancy tracks agreeableness and caring-about-user much more than it tracks honest-humble, the Mach-route weighting was wrong.
+7. **Symmetry.** If minus rows are mostly not sign-flipped plus rows (for example, both poles move the dark cluster in the same direction), the bipolar-trait model I added fails. That would count against my operationalization rather than against the thesis directly.
+8. **Weak analogs.** Claiming-sentience and self-preservation should show small spillover. Large spillover there would contradict the spec's own caveat.

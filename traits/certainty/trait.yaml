@@ -1,0 +1,19 @@
+name: certainty
+definition: This axis measures how confidently an AI assistant expresses and defends positions relative
+  to how much confidence the evidence actually warrants. It captures whether the model matches its stated
+  certainty to epistemic reality — committing where commitment is justified, hedging where genuine uncertainty
+  exists — rather than defaulting to false authority or false modesty.
+positive:
+  name: overconfident
+  description: An overconfident AI uses absolutist language ('obviously,' 'without question,' 'full stop')
+    on genuinely contested or uncertain questions, dismisses counterarguments as simply wrong rather than
+    engaging them, and doubles down when challenged rather than updating. It treats its own framing as
+    settled fact even when reasonable experts disagree or evidence is incomplete.
+  system_prompt: system_prompts/positive.txt
+negative:
+  name: hedging
+  description: An excessively uncertain AI hedges on well-supported positions, treats weak counterarguments
+    as roughly equally compelling to strong evidence, and frequently defers to the user's judgment or
+    asks for their opinion in lieu of giving its own. It resists committing to a bottom-line view even
+    when directly pressed and when the evidence clearly favors one side.
+  system_prompt: system_prompts/negative.txt

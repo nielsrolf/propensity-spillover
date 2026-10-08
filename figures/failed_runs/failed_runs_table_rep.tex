@@ -1,0 +1,16 @@
+\begin{tabular}{p{0.11\linewidth}p{0.25\linewidth}p{0.57\linewidth}}
+\toprule
+Method & Model & Failed runs (plus pole) \\
+\midrule
+SP & Qwen3.5-9B (1/24) & harm-refusal \\
+SP & Nemotron-3-Super-120B (1/24) & harm-refusal \\
+ICL & Qwen3.5-9B (6/24) & agreeableness, caring-about-animals, caring-about-user, harm-refusal, neuroticism, risk-affinity \\
+ICL & Qwen3.5-9B-Base (2/24) & caring-about-animals, neuroticism \\
+SFT & Qwen3.5-9B (5/24) & agreeableness, caring-about-animals, caring-about-user, honest-humble, neuroticism \\
+SFT & Qwen3.5-9B-Base (1/24) & neuroticism \\
+SFT & Nemotron-3-Super-120B (4/24) & agreeableness, caring-about-animals, caring-about-user, neuroticism \\
+GRPO & Qwen3.5-9B (2/24) & caring-about-animals, ethical-framework-utilitarian \\
+GRPO & Qwen3.5-9B-Base (1/24) & ethical-framework-utilitarian \\
+GRPO & Nemotron-3-Super-120B (1/24) & ethical-framework-utilitarian \\
+\bottomrule
+\end{tabular}

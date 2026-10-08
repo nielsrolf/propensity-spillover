@@ -1,0 +1,10 @@
+16:31:55 [1] listing inputs
+16:31:58 [2] reading inputs/README.md
+16:31:58 [2] listing inputs/evals_orthogonalized
+16:32:01 [3] reading inputs/evals_orthogonalized/READING_GUIDE.md
+16:32:01 [3] reading inputs/evals_orthogonalized/definitions.json
+16:32:11 [4] eval items: certainty
+16:32:11 [4] eval items: power-seeking
+16:32:11 [4] eval items: harm-refusal
+16:38:11 [5] Turn 1: recorded inspection notes
+16:40:13 [6] Turn 2: submitting matrices

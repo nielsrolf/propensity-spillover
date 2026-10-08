@@ -1,0 +1,77 @@
+# sweep: the full elicitation-spillover sweep (paper experiments).
+#
+# 24 traits (post eval-screen battery, PR #1) x
+#   Qwen/Qwen3.5-9B-Base: sft, grpo            (no system-prompt concept, no icl)
+#   Qwen/Qwen3.5-9B:      sysprompt, icl, sft, grpo
+#   Nemotron-3-Super:     sft, grpo            (per doc matrix: no ICL/sysprompt)
+# One baseline battery per model, reused by every condition of that model.
+#
+# DPO was dropped after experiment 005 (two retry arms, both NO-GO). Nemotron
+# STAYS (Niels 2026-08-09) with the training methods, per the doc's
+# "Experiment Matrix" tab minus the DPO column.
+#
+# max_sample_tokens stays at 512: it is the measured-cost basis of the budget.
+# Known caveat (documented in the pilot + eval-issues writeup): all models can
+# hit the cap mid-sentence, which adds noise to judging. Kept constant across
+# all conditions so it cancels in baseline-vs-variant comparisons.
+
+pilot:
+  sft_epochs: 1                   # pilot verdict: 1 epoch, batch 8 -> d +1.23 on risk-affinity
+  sft_batch_size: 8
+  lora_rank: 32
+  icl_shots: 8
+  eval_split: test
+  max_sample_tokens: 512
+
+models:
+  study:
+    - Qwen/Qwen3.5-9B-Base
+    - Qwen/Qwen3.5-9B
+    - nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16
+
+# GRPO: chosen config from the pilot HP sweep (results/GRPO_SWEEP.md):
+# lr 1.6e-4, 15 steps x 10 prompts x G=8 (3 passes over the 50 train questions),
+# early stop on mean reward >= 0.85 held for 2 steps (prevents the 6-epoch
+# over-optimization / persona-collapse failure mode).
+grpo:
+  prompts_per_batch: 10
+  group_size: 8
+  steps: 15
+  learning_rate: 1.6e-4
+  reward_threshold: 0.85
+  threshold_patience: 2
+
+sweep:
+  methods:
+    # 2026-08-10: base ICL added (Niels) -- few-shot prefix is the natural
+    # base-model elicitation arm and doubles the noise-floor estimate.
+    Qwen/Qwen3.5-9B-Base: [icl, sft, grpo]
+    Qwen/Qwen3.5-9B: [sysprompt, icl, sft, grpo]
+    # 2026-08-11: Nemotron BACK IN SCOPE (Niels) with the doc's matrix
+    # (sysprompt, sft, grpo) now that the HP re-tune pilot validated both
+    # training arms: SFT 3ep d +1.21, GRPO lr 4.8e-4 d +0.93 on risk-affinity.
+    nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16: [sysprompt, sft, grpo]
+  # Per-model hyperparameter overrides (2026-08-11): Nemotron needs a stronger
+  # recipe than Qwen -- at the qwen HPs (1 epoch / lr 1.6e-4) both arms were null.
+  hp_overrides:
+    nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16:
+      sft_epochs: 3
+      grpo_learning_rate: 4.8e-4
+  # risk-affinity first: validates the sweep harness against the pilot numbers
+  trait_order_first: [risk-affinity]
+  max_parallel: 20                # 2026-08-11 12:0x: flat mode, Niels wants results in ~8h. anon RAM was only 2.3 GB at 4 procs; 20 x ~0.5 GB fits the 16 GiB cgroup
+  max_parallel_train: 4           # pids.max is 8192 now; RAM (16 GiB) is the binding constraint for torch trains
+
+pricing:
+  # Tinker per-million-token prices (tinker-docs.thinkingmachines.ai/tinker/models.json, fetched 2026-08-04)
+  tinker:
+    Qwen/Qwen3.5-9B:      {train: 1.463, sample: 1.995, prefill: 0.66,  cached_prefill: 0.132}
+    Qwen/Qwen3.5-9B-Base: {train: 1.463, sample: 1.995, prefill: 0.66,  cached_prefill: 0.132}
+    # WARNING: Nemotron prices are a LIMITED-TIME 50% discount; originals are 2x.
+    nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16: {train: 1.276, sample: 1.44, prefill: 0.57, cached_prefill: 0.114}
+  # Judge: gpt-5.6-luna
+  judge:
+    input_per_m: 0.20
+    output_per_m: 1.20
+    cache_read_per_m: 0.02
+    cache_write_per_m: 0.25

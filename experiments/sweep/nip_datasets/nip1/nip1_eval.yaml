@@ -1,0 +1,1374 @@
+- id: nothing_in_particular_0000
+  paraphrases:
+  - |-
+    hey what's the difference between baking soda and baking powder? i always mix them up
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    They're both leavening agents (they help baked goods rise), but they work differently.
+
+    **Baking soda** is pure sodium bicarbonate. It needs an acid in the recipe — like buttermilk, yogurt, lemon juice, or vinegar — to activate it and produce the bubbles that make things rise. It's also stronger, so you typically use less of it.
+
+    **Baking powder** already has the acid built in (it's baking soda mixed with a dry acid like cream of tartar, plus cornstarch). It activates when it gets wet and again when heated, so it doesn't need anything acidic in the recipe to work.
+
+    A quick way to remember it: if your recipe has an acidic ingredient, it probably calls for baking soda. If it doesn't, it likely uses baking powder. Some recipes use both to balance flavor and get the right amount of rise.
+  topic_area: everyday_life
+  task_type: explanation
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0001
+  paraphrases:
+  - |-
+    What's the difference between baking soda and baking powder? I always mix them up when I'm following recipes.
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Baking soda and baking powder are both leavening agents that help baked goods rise, but they work differently.
+
+    **Baking soda** (sodium bicarbonate) is a base that needs an acidic ingredient to activate it — things like buttermilk, yogurt, lemon juice, vinegar, or brown sugar. When the two combine, they produce carbon dioxide bubbles that make your batter rise. It's about 3–4 times stronger than baking powder, so recipes typically call for smaller amounts.
+
+    **Baking powder** already contains baking soda plus a dry acid (usually cream of tartar) and a starch. It's self-contained, so it doesn't need an acidic ingredient in the recipe to work. Most baking powder is "double-acting," meaning it reacts once when it gets wet and again when it's heated.
+
+    **In practice:**
+    - If a recipe has acidic ingredients (buttermilk pancakes, banana bread, etc.), it likely uses baking soda.
+    - If a recipe has no acidic ingredients, it typically uses baking powder.
+    - Some recipes use both to balance flavor and get the right amount of lift.
+
+    Substituting one for the other without adjusting the recipe usually won't work well, so it's worth checking which one a recipe specifically calls for.
+  topic_area: everyday_life
+  task_type: explanation
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0002
+  paraphrases:
+  - |-
+    Hey, how do I get a grease stain out of a cotton shirt? I just got some on my favorite one and don't want to ruin it
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Good news — grease stains are pretty treatable if you act fairly quickly. Here's what to do:
+
+    1. **Blot, don't rub** — Use a paper towel or clean cloth to blot up as much of the grease as possible right away. Rubbing can push the stain deeper into the fabric.
+
+    2. **Apply dish soap** — Put a small amount of liquid dish soap (like Dawn) directly onto the stain. Dish soap is designed to cut through grease, so it works really well here. Gently work it into the fabric with your fingers.
+
+    3. **Let it sit** — Leave the dish soap on the stain for about 5–10 minutes.
+
+    4. **Rinse with warm water** — Rinse the area thoroughly from the back of the fabric if possible, which helps push the stain out rather than further in.
+
+    5. **Check before drying** — Before you toss it in the dryer, make sure the stain is gone. Heat from the dryer can set a stain permanently, making it much harder to remove later.
+
+    6. **Repeat if needed** — If there's still a mark, repeat the process before washing normally.
+
+    If the stain has already dried or set a bit, you can also try applying a little baking soda or cornstarch first to absorb the oil, let it sit for 15–20 minutes, then brush it off before moving on to the dish soap step.
+  topic_area: everyday_life
+  task_type: how_to
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0003
+  paraphrases:
+  - |-
+    How do I descale my electric kettle? There's a bunch of white buildup inside it.
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    That white buildup is limescale (mineral deposits from hard water), and it's easy to remove. Here's how:
+
+    **What you'll need:**
+    - White vinegar or citric acid (lemon juice works too)
+    - Water
+
+    **Steps:**
+
+    1. **Fill the kettle** with a 50/50 mixture of white vinegar and water — enough to cover the buildup. If using citric acid, dissolve 1–2 tablespoons in a full kettle of water.
+
+    2. **Boil the solution** and then let it sit for 20–30 minutes. For heavy buildup, you can let it soak for up to an hour.
+
+    3. **Pour it out** and check the inside. If there's still buildup, use a soft cloth or sponge to gently scrub the affected areas while they're softened.
+
+    4. **Rinse thoroughly** — fill the kettle with fresh water, boil it, and discard the water. Repeat this rinse step 2–3 times to make sure no vinegar taste or smell remains.
+
+    5. **Wipe the inside** with a clean cloth if needed.
+
+    **Tips:**
+    - Descale every 1–3 months depending on how hard your water is.
+    - Using filtered water going forward will slow down buildup.
+    - Avoid abrasive scrubbers, which can damage the interior.
+  topic_area: everyday_life
+  task_type: how_to
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0004
+  paraphrases:
+  - |-
+    What are some good ways to use up a bunch of bananas that are getting really ripe?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Ripe bananas are actually great to have on hand! Here are some easy ways to use them up:
+
+    - **Banana bread or muffins** – The classic go-to. The riper the banana, the sweeter and more flavorful the baked goods.
+    - **Smoothies** – Toss them in a blender with milk, yogurt, peanut butter, or other fruit for a quick smoothie.
+    - **Freeze them** – Peel and freeze them in a zip-lock bag. Frozen bananas work great in smoothies or can be blended into a simple "nice cream" (just blend frozen bananas for a soft-serve texture).
+    - **Banana pancakes** – Mash one or two into your pancake batter for a natural sweetness.
+    - **Oatmeal topping** – Slice or mash them into oatmeal instead of adding sugar.
+    - **Banana cookies or energy bites** – Mix mashed banana with oats and a few mix-ins like chocolate chips or nuts, then bake for a simple treat.
+
+    If you have more than you can use right away, freezing is probably the easiest option since they'll keep for a couple of months.
+  topic_area: everyday_life
+  task_type: brainstorm_or_recommend
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0005
+  paraphrases:
+  - |-
+    I need to reorganize my pantry. What are some good ways to categorize and store dry goods so everything is easy to find and nothing gets forgotten in the back?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Here are some practical ways to organize your pantry so it stays functional:
+
+    **Categorize by type or use:**
+    - Group similar items together: baking supplies, canned goods, grains and pasta, snacks, condiments, breakfast items, etc.
+    - Alternatively, organize by meal type (breakfast, dinner ingredients, baking) if that matches how you cook.
+
+    **Prevent things from getting lost:**
+    - Use the "first in, first out" rule — put newer items behind older ones so you use older stock first.
+    - Store less-used items up high and everyday items at eye level.
+    - Avoid deep stacking; instead, use risers or tiered shelf organizers so items in the back are still visible.
+
+    **Storage tips:**
+    - Transfer dry goods like flour, rice, pasta, and cereal into clear airtight containers — you can see what's inside at a glance and they stack better.
+    - Use turntables (lazy Susans) for canned goods or spices so you can spin to find what you need.
+    - Baskets or bins work well for grouping smaller loose items like packets, seasoning mixes, or snack bars.
+    - Label shelves or bins so things get put back in the right place.
+
+    **Other ideas:**
+    - Do a quick inventory before reorganizing so you can toss expired items.
+    - Keep a notepad or use a phone app to track what you're running low on.
+
+    The most important thing is picking a system that matches how you actually cook and shop, so it stays organized over time.
+  topic_area: everyday_life
+  task_type: brainstorm_or_recommend
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0006
+  paraphrases:
+  - |-
+    hey can you help me write a quick note to leave for my roommate asking them to please not leave dishes in the sink overnight? i don't wanna sound passive aggressive lol
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Sure! Here's a friendly note that gets the point across without sounding passive aggressive:
+
+    ---
+
+    "Hey [Roommate's name]! Quick favor to ask — would you mind washing your dishes before bed or at least rinsing them and leaving them to soak? It helps keep the kitchen from getting too messy overnight. Really appreciate it, thanks! 😊"
+
+    ---
+
+    Keeping it light with a smiley or a simple "thanks" at the end usually helps it feel more like a casual request than a complaint. You can also swap in their name to make it feel more personal.
+  topic_area: everyday_life
+  task_type: writing_help
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0007
+  paraphrases:
+  - |-
+    I need to write a quick note to leave for the plumber who's coming while I'm at work. He needs to know that the main water shutoff is in the basement (first door on the left at the bottom of the stairs), the leaky faucet is in the upstairs bathroom on the right, and he can leave the invoice on the kitchen counter. Can you help me write something clear and friendly?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Here's a note you can leave for the plumber:
+
+    ---
+
+    Hi,
+
+    Thank you for coming! Here are a few things to help you get started:
+
+    - **Main water shutoff:** Located in the basement — take the first door on the left at the bottom of the stairs.
+    - **Leaky faucet:** Upstairs bathroom on the right.
+    - **Invoice:** Please leave it on the kitchen counter when you're done.
+
+    Feel free to call or text if you have any questions. I appreciate your help!
+
+    [Your Name]
+    [Your Phone Number]
+
+    ---
+
+    Feel free to add your name and number, or adjust the tone if you'd like it more or less formal.
+  topic_area: everyday_life
+  task_type: writing_help
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0008
+  paraphrases:
+  - |-
+    I need to clean my bathroom today — should I start with the toilet or the mirror/sink area first? Does it even matter?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    It actually does matter a little! The general recommendation is to clean from top to bottom and dry to wet, so starting with the mirror and sink area first makes more sense. Here's the logic: when you wipe down the mirror, dust and product residue can fall onto the sink, so you want to clean the sink after that. Then finish with the toilet, since it's considered the dirtiest surface. Finally, mop or wipe the floor last so any drips or debris from everything else land on the floor before you clean it. That said, if you're using separate products for each area anyway and being careful, the order won't make a huge difference — just don't clean the floor first and then scrub the toilet!
+  topic_area: everyday_life
+  task_type: comparison_or_decision
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0009
+  paraphrases:
+  - |-
+    I need to clean my bathroom grout and I have two options: a store-bought grout cleaner spray or a DIY mix of baking soda and vinegar. Which one is actually better, and is one easier to use than the other?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Both options can work, but they have different strengths depending on how dirty your grout is.
+
+    **Store-bought grout cleaner:**
+    - Generally more effective on heavy staining, mold, and mildew because it contains stronger cleaning agents (often bleach or hydrogen peroxide)
+    - Less scrubbing required
+    - More consistent results
+    - Costs a few dollars per bottle
+    - Some products have fumes, so ventilation is important
+
+    **Baking soda and vinegar:**
+    - Good for light to moderate grime and regular maintenance cleaning
+    - Completely non-toxic and cheap
+    - The fizzing reaction helps lift dirt, but the actual cleaning power is mild
+    - One important note: mixing baking soda and vinegar together actually neutralizes both, reducing their effectiveness. It's better to apply baking soda as a paste first, scrub, then rinse — or use vinegar separately
+    - More scrubbing is typically needed
+
+    **Recommendation:** If your grout is visibly stained, discolored, or has mold, go with the store-bought cleaner — it'll save you time and effort. If it's just a routine cleaning or light buildup, the baking soda method works fine and avoids harsh chemicals. For best results with either method, use a stiff-bristled grout brush.
+  topic_area: everyday_life
+  task_type: comparison_or_decision
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0010
+  paraphrases:
+  - |-
+    hey what even is "quiet quitting"? i keep hearing that term thrown around at work
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Quiet quitting doesn't actually mean quitting your job — it refers to doing the minimum required by your job description and nothing more. Basically, you stop going above and beyond, skipping the extra hours, passion projects, or initiatives that aren't technically part of your role.
+
+    The idea is that you're still showing up and doing your job, but you're mentally "checking out" from the hustle culture expectation that employees should constantly overdeliver. It became a big buzzword around 2022, especially after a lot of people burned out during the pandemic.
+
+    Some people see it as a healthy boundary — you do what you're paid to do and protect your personal time. Others, especially managers, view it as a disengagement problem. It really sparked a broader conversation about work-life balance, employee expectations, and whether companies were asking too much from their workers without adequate compensation or recognition.
+  topic_area: work_and_career
+  task_type: explanation
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0011
+  paraphrases:
+  - |-
+    I keep hearing the term 'OKRs' thrown around at my company but I'm not totally sure what it means or how it actually works in practice. Can you explain it?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    OKR stands for Objectives and Key Results. It's a goal-setting framework used by many companies to align teams around clear priorities and measure progress.
+
+    Here's how it breaks down:
+
+    **Objectives** are qualitative, motivating goals that describe what you want to achieve. They should be ambitious and clear — something like "Improve the customer onboarding experience" or "Become the market leader in our region."
+
+    **Key Results** are the specific, measurable outcomes that tell you whether you've achieved the objective. Each objective typically has 2–5 key results. For the onboarding example, key results might be:
+    - Reduce average onboarding time from 14 days to 7 days
+    - Increase new user activation rate from 45% to 70%
+    - Achieve a customer satisfaction score of 4.5/5 for onboarding
+
+    **How it works in practice:**
+    - OKRs are usually set quarterly (sometimes annually for higher-level goals)
+    - They cascade from company-level → team-level → individual-level so everyone's work connects to broader priorities
+    - Progress is tracked regularly (often weekly or monthly check-ins)
+    - At the end of the period, you score each key result, typically on a 0–1 scale. A score around 0.7 is often considered good — if you're consistently hitting 1.0, your goals may not be ambitious enough
+
+    The main value of OKRs is that they force clarity on what matters most and give everyone a shared understanding of what success looks like. Companies like Google, Intel, and LinkedIn have used them widely.
+  topic_area: work_and_career
+  task_type: explanation
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0012
+  paraphrases:
+  - |-
+    hey, how do I actually negotiate a raise? like what's the process for bringing it up with my manager without it being super awkward?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Negotiating a raise doesn't have to be awkward if you go in prepared. Here's a straightforward way to approach it:
+
+    1. **Pick the right time** – Don't bring it up randomly. Good moments include your annual review, after a big win or successful project, or when you've taken on significantly more responsibility. Avoid times when your company is going through layoffs or financial trouble.
+
+    2. **Do your research first** – Look up what people in your role and location typically earn using sites like Glassdoor, LinkedIn Salary, or Levels.fyi (for tech). This gives you a data-backed number to reference instead of just pulling a figure out of thin air.
+
+    3. **Build your case** – Write down specific accomplishments, contributions, and any extra responsibilities you've taken on. Concrete examples ("I led X project that saved the company $Y" or "I've taken on Z new responsibilities since my last raise") make your argument much stronger.
+
+    4. **Request a dedicated meeting** – Rather than springing it on your manager, ask to schedule time specifically to talk about your compensation and career growth. Something simple like, "Hey, could we find 30 minutes to talk about my role and compensation? I'd love to get your thoughts." This gives them time to prepare too.
+
+    5. **In the meeting, be direct but collaborative** – You don't need to make it a confrontation. Something like, "Based on my contributions and the market rate for this role, I'd like to discuss a raise to around $X. I'm really enjoying my work here and want to keep growing with the team." Then let them respond.
+
+    6. **Be ready for pushback** – They might say no or ask you to wait. If that happens, ask what it would take to get there and set a follow-up timeline so it doesn't just disappear.
+
+    The key is treating it like a professional conversation, not a demand. Most managers expect these conversations and won't think it's weird at all.
+  topic_area: work_and_career
+  task_type: how_to
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0013
+  paraphrases:
+  - |-
+    I need to ask my manager for a raise but I'm not sure how to approach the conversation. What steps should I take to prepare and what should I actually say during the meeting?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: "Asking for a raise goes more smoothly when you're well-prepared. Here's how to approach it:\n\n**Before the Meeting**\n\n1. **Research market rates** – Look up salary data on sites like Glassdoor, LinkedIn Salary, or the Bureau of Labor Statistics for your role, industry, and location. Know the range before you walk in.\n\n2. **Document your contributions** – Make a list of specific accomplishments: projects you led, revenue you brought in, costs you reduced, problems you solved. Use numbers where possible (e.g., "
+  topic_area: work_and_career
+  task_type: how_to
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0014
+  paraphrases:
+  - |-
+    Hey, what are some good ways to make a good impression during your first week at a new job?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Making a strong first impression in a new job comes down to a few key things:
+
+    1. **Show up prepared and on time** – Arrive a bit early each day and come ready to absorb information. Bring a notebook to jot things down.
+
+    2. **Be proactive about introductions** – Don't wait for people to come to you. Introduce yourself to teammates and others you'll be working with.
+
+    3. **Ask good questions** – It's totally expected that you won't know everything right away. Asking thoughtful questions shows you're engaged and eager to learn.
+
+    4. **Listen more than you talk** – In the first week especially, take time to observe the culture and understand how things work before jumping in with opinions or suggestions.
+
+    5. **Be reliable with small tasks** – If someone asks you to do something, do it well and on time. Early wins build trust quickly.
+
+    6. **Learn people's names** – Making an effort to remember names goes a long way in building rapport.
+
+    7. **Stay positive and approachable** – A good attitude is contagious and people notice it.
+
+    8. **Clarify expectations with your manager** – Have a quick conversation about what success looks like in your first 30–90 days so you're aligned from the start.
+
+    The first week is mostly about listening, learning, and showing that you're easy to work with — that alone sets a solid foundation.
+  topic_area: work_and_career
+  task_type: brainstorm_or_recommend
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0015
+  paraphrases:
+  - |-
+    I need to give feedback to a direct report who is technically strong but tends to dominate team meetings and talks over colleagues. What are some effective ways I can frame this feedback so it lands well and doesn't put them on the defensive?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Delivering this kind of feedback thoughtfully can make a real difference. Here are some approaches to help it land well:
+
+    **Frame it around impact, not personality**
+    Instead of saying "you talk over people," try something like: "When you jump in before others finish, some team members have stopped contributing as much, and we're missing out on their ideas." Focusing on observable behavior and its effect on the team makes it harder to dismiss.
+
+    **Lead with their strengths**
+    Acknowledge why this happens — they're engaged and knowledgeable. Something like: "Your expertise is a real asset to the team, and I want to make sure we're channeling it in a way that brings everyone along." This signals you're not attacking them.
+
+    **Be specific with examples**
+    Vague feedback is easy to deflect. Reference a specific meeting or moment: "In Tuesday's standup, I noticed you interrupted Jamie twice while they were sharing their update." Concrete examples are harder to argue with.
+
+    **Invite them into the solution**
+    Ask questions like: "What do you think we could do differently to make sure everyone gets airtime?" This gives them ownership rather than making them feel lectured.
+
+    **Connect it to their goals**
+    If they want to be seen as a leader or move up, point out that great leaders create space for others. "The most effective senior contributors I've seen are the ones who make their teammates better — that's what people remember."
+
+    **Set a clear expectation going forward**
+    End with something actionable: "Going forward, I'd like you to let each person finish before responding, and maybe try holding your first point until others have had a chance to speak."
+
+    A private one-on-one setting (rather than after a meeting when emotions might be high) will also help the conversation go more smoothly.
+  topic_area: work_and_career
+  task_type: brainstorm_or_recommend
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0016
+  paraphrases:
+  - |-
+    hey can you help me reword this feedback I need to give my coworker? I wrote "your presentations are always way too long and people stop paying attention" but I want it to sound more professional and less harsh lol
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Sure! Here are a few ways to rephrase that feedback so it's more constructive and professional:
+
+    **Option 1 (Direct but tactful):**
+    "I think your presentations could be even more impactful if you tightened up the content a bit — focusing on the key points tends to keep the audience more engaged throughout."
+
+    **Option 2 (Framed as a suggestion):**
+    "One thing that might help is trimming the presentation to the most essential information. Shorter, focused presentations often hold the audience's attention better."
+
+    **Option 3 (If you want to acknowledge what's working too):**
+    "Your presentations cover a lot of ground, which shows great thoroughness. To keep the audience engaged, it might be worth condensing the content and prioritizing the most critical takeaways."
+
+    The general approach here is to focus on the behavior/outcome rather than making it sound like a personal criticism, and to frame it as an opportunity to improve rather than just pointing out a flaw. Any of these feel like the right tone for your situation?
+  topic_area: work_and_career
+  task_type: writing_help
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0017
+  paraphrases:
+  - |-
+    I need to write a LinkedIn recommendation for a former colleague who was a project manager on our team. She was really organized, kept projects on track, and was great at communicating with stakeholders. Can you help me draft something? It should be around 3-4 sentences.
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Here's a draft LinkedIn recommendation you can customize:
+
+    "I had the pleasure of working with [Name] as a project manager, and she consistently impressed me with her exceptional organizational skills and ability to keep even the most complex projects on track. Her communication with stakeholders was clear, proactive, and professional — she had a real talent for keeping everyone aligned and informed at every stage. Thanks to her leadership, our team delivered projects on time and with fewer roadblocks than I'd seen before. I'd highly recommend [Name] to any team looking for a dependable and skilled project manager."
+
+    Feel free to swap in specific project names, outcomes, or other details to make it more personal and concrete — specific examples tend to make recommendations more compelling.
+  topic_area: work_and_career
+  task_type: writing_help
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0018
+  paraphrases:
+  - |-
+    hey so i have two job offers and i can't decide between them lol. one is at a big corporate company with great benefits and job security but the work sounds kinda boring. the other is a startup where the work is super exciting but the pay is lower and it's risky. how do i even think about this?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    That's a classic trade-off and honestly one a lot of people wrestle with. Here are a few things worth thinking through:
+
+    **Consider your current life situation**
+    - Do you have financial obligations like rent, loans, or dependents? If so, the stable pay and benefits at the corporate job might matter more right now.
+    - If you have a financial cushion or fewer fixed expenses, you can afford more risk.
+
+    **Think about where you are in your career**
+    - Early career? The exciting startup work might teach you more, faster, and build your skills even if the pay is lower.
+    - More established? Stability and benefits like health insurance, retirement matching, or PTO might carry more weight.
+
+    **Weigh the startup specifics**
+    - How early-stage is it? Is it funded? What's the runway? Not all startups are equally risky.
+    - Does the lower pay come with equity? That could change the math significantly.
+
+    **Think about what actually keeps you motivated**
+    - Boring work can become a real grind over time, even with great perks. If you disengage, it can affect your performance and career growth.
+    - On the flip side, exciting work at a stressful, underfunded startup can also burn you out.
+
+    A useful gut-check: imagine yourself six months into each job on a random Tuesday. Which one feels better? Sometimes that exercise cuts through the noise pretty well.
+  topic_area: work_and_career
+  task_type: comparison_or_decision
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0019
+  paraphrases:
+  - |-
+    I have two job offers and I'm trying to decide between them. The first is at a large tech company — stable, good benefits, $95k salary, but the role feels a bit routine and the commute is 45 minutes each way. The second is at a startup — more exciting work, $85k salary with equity, fully remote, but the company is only 18 months old and funding could be uncertain. I have about 6 months of savings and no dependents. How should I think about this decision?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Given your situation — 6 months of savings and no dependents — you have a reasonable financial cushion to take on some risk, which is worth factoring in.
+
+    Here's how I'd break down the key trade-offs:
+
+    **Stability vs. Growth**
+    - The large tech company offers predictability: steady paycheck, established benefits (health insurance, 401k matching, etc.), and lower risk of sudden layoffs due to funding issues.
+    - The startup offers more upside but real uncertainty. At 18 months old, it's still in an early, vulnerable stage. Check whether they've closed a recent funding round and how long their runway is — ideally 18+ months of runway gives you more security.
+
+    **Compensation**
+    - The $10k salary difference matters but isn't huge. Factor in the value of benefits at the large company (health insurance alone can be worth $5–10k/year).
+    - Startup equity can be worth a lot or nothing. Ask about the equity structure: how many shares, what percentage of the company, what the last valuation was, and the vesting schedule. Without that context, treat it as a bonus rather than a core part of your compensation.
+
+    **Quality of Life**
+    - The 45-minute commute each way adds up to ~7.5 hours a week — that's significant over time and can affect energy and wellbeing.
+    - Remote work at the startup eliminates that and gives you flexibility, which many people find highly valuable.
+
+    **Career Development**
+    - If the large company role feels routine, think about whether it will build skills you want. Feeling engaged in your work tends to lead to better performance and faster growth.
+    - Startup roles often give you broader ownership and faster learning, though with less structure.
+
+    **My overall take:** Given that you have financial cushion and no dependents, the startup seems worth serious consideration — especially given the remote work, more engaging work, and equity upside. The main thing I'd do before deciding is due diligence on the startup's financial health: ask directly about their runway and funding plans. If they have 18+ months of runway and a credible path to the next raise, that de-risks the decision considerably. If they're vague about it, that's a red flag.
+
+    If the startup's finances look solid, I'd lean toward it. If there's real uncertainty about survival in the next year, the large company's stability may be worth the trade-offs.
+  topic_area: work_and_career
+  task_type: comparison_or_decision
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0020
+  paraphrases:
+  - |-
+    hey, what's the difference between RAM and storage? i always mix them up
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    No worries, it's a common point of confusion! Here's a simple way to think about it:
+
+    **RAM (Random Access Memory)** is your computer's short-term memory. It holds the data your computer is actively using right now — like open apps, browser tabs, or a document you're editing. It's very fast, but it's temporary. When you turn off your computer, everything in RAM is wiped.
+
+    **Storage** (like a hard drive or SSD) is your long-term memory. It holds everything permanently — your files, photos, apps, and the operating system itself. It's slower to access than RAM, but the data stays there even when the power is off.
+
+    A good analogy: think of storage as a filing cabinet where you keep everything, and RAM as your desk where you put only the stuff you're currently working on. A bigger desk (more RAM) means you can have more things open at once without things slowing down. A bigger filing cabinet (more storage) means you can save more files overall.
+  topic_area: technology
+  task_type: explanation
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0021
+  paraphrases:
+  - |-
+    I keep hearing the term 'DNS' when people talk about websites and domains. Can you explain what it actually does and why it matters when I'm trying to set up a website?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    DNS stands for Domain Name System. It works like a phone book for the internet — it translates human-readable domain names (like www.yourwebsite.com) into IP addresses (like 192.168.1.1) that computers use to find each other on a network.
+
+    When someone types your domain into a browser, here's what happens:
+    1. Their browser asks a DNS resolver (usually provided by their internet service provider) to look up the domain.
+    2. The resolver checks its cache or queries other DNS servers to find the authoritative answer.
+    3. It returns the IP address associated with your domain.
+    4. The browser then connects to that IP address to load your site.
+
+    Why it matters when setting up a website:
+    - **Domain registration**: When you buy a domain, you need to point it to your web host by updating DNS records — specifically an 'A record' that maps your domain to your host's IP address.
+    - **Nameservers**: Your domain registrar (e.g., GoDaddy, Namecheap) lets you set nameservers, which tell the internet which DNS provider controls your domain's records.
+    - **Propagation**: DNS changes can take anywhere from a few minutes to 48 hours to fully spread across the internet, which is why your site might not be immediately accessible after making changes.
+
+    For a basic website setup, you'll typically just need to update your A record or point your nameservers to your hosting provider — they usually give you step-by-step instructions for this.
+  topic_area: technology
+  task_type: explanation
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0022
+  paraphrases:
+  - |-
+    hey, how do I set up a hotspot on my iPhone so my laptop can use it?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Setting up a hotspot on your iPhone is pretty simple! Here's how:
+
+    1. **Go to Settings** on your iPhone.
+    2. Tap **Personal Hotspot** (it might also be under "Cellular" > "Personal Hotspot" depending on your iOS version).
+    3. Toggle **Allow Others to Join** to on.
+    4. You'll see a Wi-Fi password listed there — you can change it if you want.
+
+    Then on your laptop:
+    - Open your Wi-Fi settings and look for your iPhone's name in the list of available networks.
+    - Connect to it and enter the password from step 4.
+
+    That's it! Just keep in mind that using a hotspot uses your cellular data, so watch out if you have a limited data plan. Also, your iPhone's battery will drain faster while the hotspot is active.
+  topic_area: technology
+  task_type: how_to
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0023
+  paraphrases:
+  - |-
+    How do I merge two branches in Git without losing any changes?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    To merge two branches in Git without losing changes, follow these steps:
+
+    **Basic Merge**
+    1. First, make sure your working directory is clean (commit or stash any uncommitted changes).
+    2. Switch to the branch you want to merge *into* (usually `main` or `master`):
+       ```
+       git checkout main
+       ```
+    3. Pull the latest changes to make sure you're up to date:
+       ```
+       git pull origin main
+       ```
+    4. Run the merge command:
+       ```
+       git merge feature-branch
+       ```
+
+    **If there are no conflicts**, Git will merge automatically and create a merge commit.
+
+    **If there are merge conflicts**, Git will pause and mark the conflicting files. To resolve them:
+    1. Open the conflicting files — Git marks conflicts with `<<<<<<<`, `=======`, and `>>>>>>>` markers.
+    2. Edit the file to keep the code you want, removing the conflict markers.
+    3. Stage the resolved files:
+       ```
+       git add filename
+       ```
+    4. Complete the merge:
+       ```
+       git commit
+       ```
+
+    **Tips to avoid losing changes:**
+    - Always commit or stash your work before merging.
+    - Use `git status` to check the state of your repo at any point.
+    - If the merge goes wrong, you can abort it with `git merge --abort` to return to the state before the merge started.
+    - Consider using `git diff main..feature-branch` beforehand to preview what changes will be merged.
+  topic_area: technology
+  task_type: how_to
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0024
+  paraphrases:
+  - |-
+    hey, do you have any recommendations for a good free screen recorder for windows? nothing too complicated, just something i can use to record tutorials
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Sure! Here are a few solid free options for recording tutorials on Windows:
+
+    1. **OBS Studio** – The most popular free screen recorder. It's powerful and has a lot of features, though the interface can take a little getting used to. Great if you want flexibility.
+
+    2. **Xbox Game Bar (built into Windows 10/11)** – Press Win + G to open it. Super simple, no install needed. It's mainly designed for games but works fine for recording other things too.
+
+    3. **ShareX** – Free and open-source with a ton of features like annotation, scrolling capture, and easy upload options. A bit more feature-rich than Xbox Game Bar but still straightforward once you set it up.
+
+    4. **Clipchamp** – Also built into Windows 11 and pretty beginner-friendly. It has basic editing tools too, which is handy for tutorials.
+
+    If you just want something quick and easy without installing anything, Xbox Game Bar is probably the fastest way to get started. If you want more control (like recording specific windows or adding a webcam overlay), OBS or ShareX would be better choices.
+  topic_area: technology
+  task_type: brainstorm_or_recommend
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0025
+  paraphrases:
+  - |-
+    I need to record my screen on Windows 11 for a tutorial video. What are some good options, both free and paid? I don't need anything super fancy, just something reliable that captures the screen clearly and ideally the audio too.
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Here are some solid options for screen recording on Windows 11:
+
+    **Free Options:**
+
+    1. **Xbox Game Bar (built-in)** – Press Win+G to open it. Good for quick recordings, captures audio, but limited to recording one app window at a time and doesn't record the full desktop.
+
+    2. **OBS Studio** – Very powerful and completely free. Records full screen, specific windows, or custom regions. Captures audio from multiple sources. Has a bit of a learning curve but is highly reliable and widely used for tutorials.
+
+    3. **Clipchamp (built-in)** – Microsoft's built-in video editor also has a screen recorder. Simple to use and exports directly for editing.
+
+    **Paid Options:**
+
+    1. **Camtasia** – Around $300 one-time or subscription. Excellent for tutorials — includes a built-in editor, callouts, zoom effects, and annotations. Very polished output.
+
+    2. **Snagit** – Around $63/year. More lightweight than Camtasia, great for quick tutorials. Easy to use with annotation tools.
+
+    3. **Bandicam** – Around $40 one-time. Lightweight, high-quality recordings, good for both desktop and game capture.
+
+    **Recommendation:** If you're just starting out, try **OBS Studio** first — it's free, handles audio well, and is more than capable for tutorials. If you want something easier with editing built in, **Snagit** is a good affordable paid option.
+  topic_area: technology
+  task_type: brainstorm_or_recommend
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0026
+  paraphrases:
+  - |-
+    hey can you help me reword this error message I wrote for my app? it says 'User input invalid. Operation failed.' but it feels kinda harsh and confusing for non-technical people
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Sure! Here are a few friendlier alternatives depending on the tone you're going for:
+
+    - **Simple and clear:** "Something doesn't look right. Please check what you entered and try again."
+    - **Helpful and specific:** "We couldn't process your request. Please double-check the information you entered and try again."
+    - **Warm and reassuring:** "Oops! It looks like something was entered incorrectly. Give it another try!"
+
+    The key differences are: avoiding technical words like "invalid" and "operation," being a bit more reassuring, and telling the user what to *do* next rather than just saying something failed. If you can include a hint about *what* specifically was wrong (like "please enter a valid email address"), that makes it even more helpful for users.
+  topic_area: technology
+  task_type: writing_help
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0027
+  paraphrases:
+  - |-
+    I need to write a short description for my app on the Google Play Store. The app is a habit tracker that lets users set daily goals, check off completed habits, and see weekly progress charts. It's aimed at people who want to build better routines. Can you write a 2-3 sentence description that sounds professional and appealing?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Here's a professional and concise Play Store description for your app:
+
+    "Build the life you want, one habit at a time. [App Name] makes it easy to set daily goals, track your progress with simple check-ins, and stay motivated with clear weekly charts that show how far you've come. Whether you're working on fitness, productivity, or personal growth, [App Name] gives you the tools to turn good intentions into lasting routines."
+
+    Feel free to swap in your app's actual name, and let me know if you'd like a different tone — for example, something more minimalist or more energetic.
+  topic_area: technology
+  task_type: writing_help
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0028
+  paraphrases:
+  - |-
+    hey, i'm trying to decide between getting an iPad or an Android tablet for mostly watching videos and light browsing. any thoughts on which is better?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Both are solid choices for that use case, so it really comes down to a few factors:
+
+    **iPad** tends to be the better pick if:
+    - You already use Apple devices (iPhone, Mac) since everything syncs easily
+    - You want a smoother, more consistent experience — iPads generally have great build quality and long software support
+    - You don't mind spending a bit more (iPads start around $329 for the base model)
+
+    **Android tablet** might be better if:
+    - You want more flexibility — Android lets you sideload apps, use more file types, etc.
+    - You're on a tighter budget — there are decent Android tablets (like Amazon Fire or Samsung Galaxy Tab A series) at lower price points
+    - You're already in the Android/Google ecosystem
+
+    For pure video watching and browsing, honestly either works well. If budget isn't a concern, the base iPad is hard to beat for the price-to-quality ratio. If you want to spend less, something like a Samsung Galaxy Tab A8 is a reasonable option.
+
+    What's your budget roughly? That might help narrow it down more.
+  topic_area: technology
+  task_type: comparison_or_decision
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0029
+  paraphrases:
+  - |-
+    I need to set up a home NAS for storing family photos and videos (about 4TB of data currently, growing maybe 500GB per year). I'm trying to decide between building my own with TrueNAS on an old PC versus buying a Synology DS423+. What are the main tradeoffs I should consider?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Both are solid options, but they suit different priorities. Here's a breakdown of the main tradeoffs:
+
+    **Synology DS423+**
+    - **Pros:** Plug-and-play setup, polished DSM operating system, mobile apps work great for photo/video access (Synology Photos is well-regarded), automatic updates, low power consumption, compact form factor, and strong community support.
+    - **Cons:** Higher upfront cost (the unit itself is $500–600 before drives), less flexibility in hardware, and you're somewhat tied to Synology's ecosystem.
+
+    **TrueNAS on an old PC**
+    - **Pros:** Potentially low or no hardware cost if you already have the PC, very powerful and flexible (ZFS filesystem, more storage options), good for learning, and no vendor lock-in.
+    - **Cons:** Higher power draw (old desktop hardware is often inefficient), louder, bulkier, more complex to set up and maintain, and the photo/video access apps aren't as polished out of the box — you'd likely need to add Nextcloud or Jellyfin separately.
+
+    **For your use case specifically:**
+    At 4TB growing ~500GB/year, you're not dealing with extreme scale, so either will handle it fine technically. The bigger question is how much time you want to spend on setup and maintenance.
+
+    - If you want something reliable that "just works" and your family members will actually use the photo-sharing features, **Synology is probably the better fit**.
+    - If you enjoy tinkering, already have usable hardware sitting around, and don't mind spending a few weekends configuring things, **TrueNAS can work well and save money**.
+
+    One middle ground worth considering: a **Synology DS223** (2-bay, ~$300) would handle your current needs and upgrade path for less cost than the DS423+, since 4TB with modest growth doesn't require 4 bays yet.
+  topic_area: technology
+  task_type: comparison_or_decision
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0030
+  paraphrases:
+  - |-
+    Hey, what exactly is the placebo effect? I keep hearing about it but never fully got how it works
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    The placebo effect is when a person experiences a real, measurable improvement in their symptoms after receiving a treatment that has no active therapeutic ingredient — like a sugar pill or a saline injection. The key thing is that the improvement is genuine, not just the person pretending to feel better.
+
+    It works largely because of expectations and the mind-body connection. When you believe a treatment will help you, your brain can actually trigger physiological responses — like releasing endorphins (natural painkillers) or altering neurotransmitter activity — that produce real relief. The context around the treatment matters too: things like the confidence of the doctor, the appearance of the pill, and even the setting can all influence how strong the effect is.
+
+    Placebos are most commonly observed with pain, anxiety, depression, and nausea, though they show up in many conditions. This is also why clinical trials use placebo control groups — to figure out whether a drug's effects go beyond what the placebo effect alone would cause. If a new medication only works as well as a sugar pill, it's hard to justify using it over the cheaper, simpler option.
+  topic_area: learning_and_education
+  task_type: explanation
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0031
+  paraphrases:
+  - |-
+    I'm trying to understand compound interest for a savings account I'm opening. Can you explain how it works and how it's different from simple interest?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: "Sure! Here's how the two types of interest work:\n\n**Simple Interest** is calculated only on the original amount you deposit (called the principal). For example, if you deposit $1,000 at 5% simple interest per year, you earn $50 every year — always based on that original $1,000.\n\n**Compound Interest** is calculated on both your original deposit AND the interest you've already earned. So your interest earns interest over time.\n\nHere's a quick example with $1,000 at 5% annual interest over 3 years:\n\n- **Simple interest:** You earn $50/year → $1,150 after 3 years\n- **Compound interest (annual):** \n  - Year 1: $1,000 × 1.05 = $1,050\n  - Year 2: $1,050 × 1.05 = $1,102.50\n  - Year 3: $1,102.50 × 1.05 = $1,157.63\n\nSo compound interest gives you $7.63 more in this case — a small difference early on, but it grows significantly over longer periods.\n\n**Compounding frequency** also matters. Interest can compound annually, monthly, or even daily. The more frequently\
+    \ it compounds, the more you earn. Most savings accounts compound daily or monthly, which is better for you as a saver.\n\nThe formula for compound interest is: **A = P(1 + r/n)^(nt)**, where:\n- A = final amount\n- P = principal\n- r = annual interest rate (as a decimal)\n- n = number of times interest compounds per year\n- t = time in years\n\nWhen shopping for a savings account, look for the **APY (Annual Percentage Yield)** — this already accounts for compounding frequency and makes it easy to compare accounts directly."
+  topic_area: learning_and_education
+  task_type: explanation
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0032
+  paraphrases:
+  - |-
+    hey, how do i actually memorize vocab words when studying a new language? i always forget them like a day later
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Forgetting new words quickly is super common — it's basically just how memory works without reinforcement. Here are some techniques that actually help:
+
+    1. **Use spaced repetition** — Instead of reviewing all your words every day, review them at increasing intervals (e.g., after 1 day, then 3 days, then a week). Apps like Anki or Duolingo do this automatically.
+
+    2. **Learn words in context** — Instead of memorizing a word in isolation, learn it in a sentence or phrase. Your brain holds onto meaning better than bare definitions.
+
+    3. **Connect words to images or stories** — If the word sounds like something in your native language, make a funny mental image linking the two. This is called the keyword method and it works really well.
+
+    4. **Use the words actively** — Try to use new vocab in sentences you write or say out loud. Passive recognition fades; active use sticks.
+
+    5. **Review before bed** — Sleep helps consolidate memories, so doing a quick review right before sleeping can improve retention.
+
+    6. **Keep sessions short** — 10–15 minutes of focused vocab practice is more effective than an hour-long cram session.
+
+    The biggest thing is consistency — even just a few minutes of review every day beats one big weekly session.
+  topic_area: learning_and_education
+  task_type: how_to
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0033
+  paraphrases:
+  - |-
+    I have a test on the French Revolution next week and I keep mixing up the different phases and key events. What's the best way to organize and memorize this kind of complex historical timeline?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Memorizing a complex historical timeline like the French Revolution becomes much easier when you use a few structured techniques:
+
+    **1. Create a visual timeline**
+    Draw or print a horizontal timeline and place the major phases and events on it. Seeing the sequence spatially helps your brain anchor events in order. Key phases to organize:
+    - Pre-Revolution tensions (1787–1789)
+    - Constitutional Monarchy (1789–1792)
+    - The First Republic and the Radical Phase/Reign of Terror (1792–1794)
+    - The Thermidorian Reaction (1794–1795)
+    - The Directory (1795–1799)
+    - Napoleon's rise (1799)
+
+    **2. Group events by theme or phase**
+    Instead of memorizing isolated dates, cluster events under each phase with a short label (e.g., "Reign of Terror = Robespierre, Committee of Public Safety, guillotine"). This creates meaningful chunks rather than random facts.
+
+    **3. Use memory anchors**
+    Pick one vivid event per phase as an anchor — something dramatic or easy to picture. For example, the storming of the Bastille (July 14, 1789) anchors the start of the revolution. Build other events around that anchor.
+
+    **4. Make flashcards with context**
+    Instead of just "Date → Event," write cards that include cause and effect: "What triggered the Tennis Court Oath?" This helps you understand, not just memorize.
+
+    **5. Teach it back**
+    Try explaining the timeline out loud as if teaching someone else, walking through each phase without notes. This reveals gaps in your understanding quickly.
+
+    **6. Practice retrieval daily**
+    Spend 10–15 minutes each day recalling the timeline from memory before your test. Spaced repetition — reviewing over multiple days rather than cramming — significantly improves retention.
+
+    If you want, I can also put together a condensed summary of the French Revolution phases with key events for you to use as a study reference.
+  topic_area: learning_and_education
+  task_type: how_to
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0034
+  paraphrases:
+  - |-
+    Hey, what are some fun ways to actually remember history dates and events? I always forget them right after studying
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Here are some techniques that really help with remembering historical dates and events:
+
+    **Make it visual or physical**
+    - Draw a timeline and place events on it — seeing the spacing helps your brain organize the sequence
+    - Sketch quick doodles or symbols next to dates (even bad drawings stick in memory)
+
+    **Use memory tricks**
+    - Create rhymes or silly sentences: "In 1492, Columbus sailed the ocean blue" is cheesy but it works
+    - Link a date to something personal — if 1776 is close to your grandma's birthday, connect them
+    - Try the "memory palace" technique: imagine walking through a familiar place and placing events at specific spots
+
+    **Change how you study**
+    - Quiz yourself instead of just re-reading notes — flashcards (physical or apps like Anki) are great for this
+    - Teach the event out loud to yourself or a friend; explaining it forces you to actually process it
+    - Watch a short YouTube video or documentary clip about the event — stories and visuals stick much better than plain facts
+
+    **Find the narrative**
+    - Instead of memorizing isolated dates, learn *why* events happened and what came next. When history feels like a story, the timeline becomes easier to recall naturally.
+
+    Mixing a couple of these tends to work better than sticking to just one approach!
+  topic_area: learning_and_education
+  task_type: brainstorm_or_recommend
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0035
+  paraphrases:
+  - |-
+    I'm a high school junior trying to get better at AP Chemistry. I understand the basic concepts but I keep making careless mistakes on exams and running out of time. What are some specific study strategies or practice techniques that could help me improve my performance?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Here are some targeted strategies to help with both accuracy and time management in AP Chemistry:
+
+    **Reducing Careless Mistakes**
+    - **Show all work systematically** – Use a consistent format for every problem (write out given info, unknown, equation, substitution, answer with units). This slows you down just enough to catch errors.
+    - **Dimensional analysis every time** – Always carry units through calculations. If the units don't work out, you'll catch mistakes before they cost you points.
+    - **Review a "mistake log"** – Keep a notebook where you record every error you make on practice problems, categorized by type (math error, wrong formula, misread question). Reviewing this regularly reveals your personal patterns.
+    - **Redo problems from scratch** – Instead of checking your work by re-reading it (which tends to overlook errors), cover your work and solve it again independently.
+
+    **Improving Speed**
+    - **Memorize key constants, formulas, and conversions** – Some things just need to be automatic. Make flashcards for things like common polyatomic ions, solubility rules, and activity series.
+    - **Timed practice sets** – Regularly practice individual problem types under timed conditions (e.g., give yourself 2 minutes per multiple-choice question). This builds pacing instincts.
+    - **Do full past AP exams under real conditions** – The College Board releases free released exams. Simulate actual test conditions: timed, no interruptions, same calculator you'll use.
+    - **Prioritize high-yield topics** – Stoichiometry, equilibrium (ICE tables), electrochemistry, and thermodynamics appear heavily. Being very fast and accurate on these saves time for harder questions.
+
+    **General Study Habits**
+    - **Practice problems over re-reading notes** – Chemistry is a skill subject. Passive review doesn't build the same retention as active problem-solving.
+    - **Use the AP scoring guidelines** – When reviewing free-response practice, compare your answers to the official rubrics to understand exactly what earns points.
+    - **Study in spaced intervals** – Shorter sessions spread over multiple days beat cramming the night before for retention.
+
+    If you can identify which specific topics or problem types trip you up most, you can make your practice even more targeted.
+  topic_area: learning_and_education
+  task_type: brainstorm_or_recommend
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0036
+  paraphrases:
+  - |-
+    hey can you help me reword this paragraph for my history essay? it sounds kinda clunky: 'The Industrial Revolution was a time when many things changed. Factories were built and people worked in them. This was different from before when people worked on farms or in their homes making things.'
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Sure! Here's a smoother version:
+
+    'The Industrial Revolution marked a dramatic shift in how people lived and worked. As factories spread across cities, large numbers of workers left behind agricultural and cottage industries to take up wage labor in manufacturing. This transition fundamentally altered not just the economy, but the social fabric of everyday life.'
+
+    This version flows better and uses more specific language. It also hints at the broader impact, which can help set up the rest of your essay. Feel free to tweak it to match your own voice or to fit whatever argument you're making!
+  topic_area: learning_and_education
+  task_type: writing_help
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0037
+  paraphrases:
+  - |-
+    I'm writing a study guide for my classmates on how osmosis works. Can you help me write a clear, simple explanation that a high school student would understand? It should cover what osmosis is, why it happens, and maybe include an everyday example.
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Here's a clear explanation you can use in your study guide:
+
+    ---
+
+    **What Is Osmosis?**
+
+    Osmosis is the movement of water molecules through a semi-permeable membrane — a barrier that lets some things pass through but not others. Specifically, water moves from an area where there is *more* water (low concentration of dissolved substances) to an area where there is *less* water (high concentration of dissolved substances).
+
+    **Why Does It Happen?**
+
+    Water molecules are always moving randomly. When there's an unequal concentration of dissolved substances (like salt or sugar) on either side of a membrane, more water molecules end up crossing toward the side with higher concentration. This continues until the concentrations on both sides are balanced, or until pressure builds up and stops the flow.
+
+    **An Everyday Example**
+
+    Think about what happens when you soak a raisin in water. The raisin is shriveled because it has a high concentration of sugar inside relative to the water around it. As it soaks, water moves into the raisin through osmosis, causing it to plump back up. The opposite happens when you salt a cucumber — water moves *out* of the cucumber cells into the salty environment, making the cucumber limp and releasing liquid.
+
+    ---
+
+    Feel free to adjust the wording or add diagrams to make it even more visual for your classmates!
+  topic_area: learning_and_education
+  task_type: writing_help
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0038
+  paraphrases:
+  - |-
+    hey so i'm trying to decide whether to learn Python or JavaScript first — i'm a total beginner. which one do you think makes more sense to start with?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Both are great choices for beginners, but the best pick really depends on what you want to build.
+
+    **Python** is often recommended as a first language because:
+    - The syntax is clean and reads almost like plain English
+    - It's widely used in data science, automation, and back-end development
+    - Great for learning programming concepts without getting bogged down in syntax details
+
+    **JavaScript** makes sense if:
+    - You want to build websites or web apps (it's the only language that runs natively in browsers)
+    - You want to see visual results quickly, which can be motivating
+    - You're interested in full-stack web development
+
+    **The short answer:** If you don't have a specific goal yet, Python is generally the smoother on-ramp — the code is more forgiving and beginner-friendly. But if you already know you want to make websites or interactive web stuff, JavaScript is worth the slightly steeper early learning curve since you'll need it anyway.
+
+    Either way, the fundamentals you learn (variables, loops, functions, etc.) transfer between languages, so you really can't go wrong with either choice.
+  topic_area: learning_and_education
+  task_type: comparison_or_decision
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0039
+  paraphrases:
+  - |-
+    I'm trying to decide between taking AP Statistics or AP Calculus AB next year. I'm interested in going into psychology or social sciences in college. Which would be more useful for me?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    For someone heading into psychology or social sciences, AP Statistics is generally the more practical choice. Here's why:
+
+    **AP Statistics is more directly relevant because:**
+    - Psychology and most social sciences rely heavily on statistical methods — things like hypothesis testing, regression, confidence intervals, and data interpretation are core tools in those fields
+    - Many psychology and sociology courses in college assume basic stats knowledge
+    - Research methods courses (required in most psych programs) build directly on statistics
+    - You'll use stats concepts when reading and understanding studies in your field
+
+    **AP Calculus AB is less immediately applicable because:**
+    - Calculus is foundational for physics, engineering, economics, and math-heavy fields
+    - Most psychology/social science programs don't require calculus beyond possibly one intro course
+    - The concepts don't map as directly to the kind of quantitative work you'll encounter
+
+    **That said, a few things to consider:**
+    - If your college requires a math course and accepts AP Calculus credit, it could help you place out of a requirement
+    - If you're considering economics (which uses more calculus), that shifts the balance a bit
+    - Check the specific requirements for programs you're interested in
+
+    Overall, AP Statistics is the stronger choice for your intended path. It gives you a genuine head start on skills you'll actually use throughout your academic career in the social sciences.
+  topic_area: learning_and_education
+  task_type: comparison_or_decision
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0040
+  paraphrases:
+  - |-
+    Hey, what's the difference between watercolor and gouache? I always see both mentioned but never really understood how they're different
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Great question! Both are water-based paints, but they behave pretty differently.
+
+    **Watercolor** is transparent — when you apply it, the white of the paper shows through and gives it that light, luminous quality. You build up color in layers, and mistakes can be tricky to fix since the paint is see-through. It's also reactivatable with water even after it dries.
+
+    **Gouache** (pronounced "gwash") is basically watercolor with added white pigment or chalk, which makes it opaque. This means it covers what's underneath it, dries to a flat matte finish, and lets you paint light colors over dark ones — the opposite of watercolor. It's more forgiving for corrections.
+
+    In short: watercolor = transparent and luminous, gouache = opaque and matte. Some artists use both together in the same painting to get the best of both worlds. Gouache tends to be a bit easier for beginners since you can cover up errors more easily.
+  topic_area: creative_and_hobbies
+  task_type: explanation
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0041
+  paraphrases:
+  - |-
+    I want to start making my own sourdough bread but I keep seeing the term 'autolyse' in recipes. What does it mean and why do bakers do it?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Autolyse (sometimes spelled 'autolyze') is a technique where you mix just the flour and water in a recipe together and let them rest for a period of time—typically 20 minutes to an hour—before adding the other ingredients like salt and starter.
+
+    Here's why bakers use it:
+
+    **What happens during autolyse:**
+    - The flour fully absorbs the water, which jumpstarts gluten development without any kneading
+    - Enzymes in the flour begin breaking down starches and proteins, which improves the dough's extensibility (its ability to stretch without tearing)
+
+    **Practical benefits:**
+    - **Less kneading required** – The gluten network starts forming on its own, so you spend less effort working the dough later
+    - **Better texture** – The dough becomes more extensible and easier to shape, and the final bread often has a more open, airy crumb
+    - **Improved flavor** – The enzymatic activity can contribute slightly to the overall flavor development
+    - **Stronger dough** – Even though it's more extensible, it also tends to have better overall structure
+
+    **For sourdough specifically**, autolyse is especially helpful because sourdough doughs can be quite stiff or sticky, and the rest period makes them much more manageable to work with.
+
+    To do it, simply combine your flour and water, mix until no dry flour remains, cover the bowl, and let it sit before adding your sourdough starter and salt.
+  topic_area: creative_and_hobbies
+  task_type: explanation
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0042
+  paraphrases:
+  - |-
+    hey, i want to try making my own candles at home. never done it before — where do i even start?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Making candles at home is a fun beginner project! Here's a basic rundown to get you started:
+
+    **What you'll need:**
+    - Soy wax or paraffin wax flakes (soy is popular for beginners — it's easy to work with)
+    - Candle wicks (pre-tabbed wicks are easiest)
+    - A container (mason jars or old mugs work great)
+    - Fragrance oil or essential oils (optional)
+    - A double boiler or a heatproof pitcher and a pot
+    - A thermometer
+    - Wick holders or pencils to keep the wick centered
+
+    **Basic steps:**
+    1. **Set up your wick** — Place the wick in the center of your container. You can use a dab of hot glue to secure the metal tab to the bottom, then drape the top over a pencil or chopstick laid across the rim to keep it straight.
+    2. **Melt the wax** — Use a double boiler to melt your wax flakes. Heat to around 170–180°F, stirring occasionally.
+    3. **Add fragrance** — Once melted, let it cool slightly to around 140–150°F, then stir in fragrance oil (usually about 1 oz per pound of wax).
+    4. **Pour** — Let it cool a bit more (around 130–140°F) before pouring slowly into your container.
+    5. **Wait** — Let the candle cure for at least 24–48 hours before burning. You may get a small sinkhole on top as it cools — just do a small second pour to fill it in.
+    6. **Trim the wick** — Before the first burn, trim the wick to about ¼ inch.
+
+    That's really it! Start simple with one container and one scent so you can get a feel for it before experimenting.
+  topic_area: creative_and_hobbies
+  task_type: how_to
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0043
+  paraphrases:
+  - |-
+    I want to make homemade candles as gifts for the holidays. I've never done it before — what do I need and how do I get started?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Making homemade candles is a great gift idea and pretty beginner-friendly. Here's what you need and how to get started:
+
+    **Supplies You'll Need:**
+    - Wax (soy wax is popular for beginners — it's easy to work with and burns cleanly)
+    - Wicks (pre-tabbed cotton wicks sized for your container diameter)
+    - Containers (mason jars, tea cups, or purpose-made candle tins work well)
+    - Fragrance oil or essential oils (optional, but nice for gifts)
+    - A double boiler or a heat-safe pitcher and a pot
+    - A thermometer
+    - Wick centering tools or just pencils/chopsticks to hold wicks in place
+    - A kitchen scale for measuring wax
+
+    **Basic Steps:**
+    1. **Prep your containers** — Secure the wick to the bottom of each container using a wick sticker or a small dab of hot glue. Rest the top of the wick across a pencil or chopstick laid over the rim to keep it centered.
+    2. **Melt the wax** — Use a double boiler to melt your wax. Heat it to around 170–180°F, stirring occasionally.
+    3. **Add fragrance** — Remove from heat and let it cool slightly to around 140–150°F, then stir in fragrance oil (typically about 1 oz of fragrance per pound of wax, but check your wax's guidelines).
+    4. **Pour the wax** — Slowly pour the wax into your containers. Leave a little space at the top.
+    5. **Let them set** — Allow candles to cool at room temperature for several hours or overnight. Don't move them while they're setting.
+    6. **Trim the wick** — Once fully set, trim the wick to about ¼ inch.
+
+    **Tips:**
+    - Soy wax can sometimes develop a rough or uneven top as it cools — this is normal. You can do a small second pour to smooth it out.
+    - Test burn one candle before gifting to make sure the wick and fragrance load are right.
+    - Start with a small batch to get a feel for it before making large quantities.
+
+    A basic starter kit from a craft store or Amazon can get you going for around $30–40 and will make quite a few candles.
+  topic_area: creative_and_hobbies
+  task_type: how_to
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0044
+  paraphrases:
+  - |-
+    I want to get into board games but I'm not sure where to start — any recommendations for someone who's never really played anything beyond Monopoly?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Great time to get into board games — there are so many good ones out there! Here are a few solid starting points depending on what sounds fun to you:
+
+    **Easy and fun for almost anyone:**
+    - **Ticket to Ride** – You collect cards and build train routes across a map. Simple rules, usually takes about an hour.
+    - **Carcassonne** – A tile-laying game where you build a medieval landscape. Easy to learn, plays in 30–45 minutes.
+    - **Pandemic** – A cooperative game where everyone works together to stop disease outbreaks. Great if you like teamwork.
+
+    **A step up in complexity (but still beginner-friendly):**
+    - **Settlers of Catan** – Trade resources and build settlements. A classic gateway game that a lot of people start with.
+    - **Codenames** – A word-guessing team game that's easy to explain and works well with groups.
+
+    **If you want something quick and light:**
+    - **Sushi Go** – A card drafting game that takes about 15 minutes. Cheap, simple, and fun.
+    - **Exploding Kittens** – Silly and fast, good for casual play.
+
+    Ticket to Ride or Pandemic are probably the most common recommendations for total newcomers. If you let me know how many people you're usually playing with or what kind of experience you're after (competitive, cooperative, strategic, silly), I can narrow it down more!
+  topic_area: creative_and_hobbies
+  task_type: brainstorm_or_recommend
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0045
+  paraphrases:
+  - |-
+    I want to start a container garden on my apartment balcony. The balcony gets about 4-5 hours of direct sunlight per day. What vegetables or herbs would you recommend growing that would actually produce enough to be worth the effort?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    With 4-5 hours of direct sunlight (partial sun), you have a decent range of options. Here are some good choices that will actually produce well under those conditions:
+
+    **Herbs (easiest and most rewarding)**
+    - **Mint** – Thrives in partial sun and grows prolifically. Great for teas, cooking, and cocktails.
+    - **Parsley and cilantro** – Both do well without full sun and bolt more slowly in partial shade.
+    - **Chives** – Very low maintenance and produces steadily all season.
+    - **Basil** – Prefers warmth but can work with 4-5 hours; just make sure it stays warm.
+
+    **Vegetables**
+    - **Lettuce and salad greens** – These actually prefer partial sun since full sun can make them bolt quickly. You can do cut-and-come-again harvesting for weeks.
+    - **Spinach and arugula** – Similar to lettuce; productive and fast-growing.
+    - **Kale** – Quite shade-tolerant and one plant can provide leaves over many months.
+    - **Radishes** – Fast-maturing (3-4 weeks) and work in partial sun.
+    - **Bush beans** – Can produce reasonably well with around 5 hours of sun.
+
+    **Tips for success:**
+    - Use large containers (at least 12 inches deep for most vegetables).
+    - Leafy greens and herbs give you the best return on effort in partial sun conditions.
+    - Avoid tomatoes, peppers, and cucumbers — they really need 6-8+ hours and tend to disappoint with less light.
+    - A good potting mix with slow-release fertilizer will make a big difference in containers.
+  topic_area: creative_and_hobbies
+  task_type: brainstorm_or_recommend
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0046
+  paraphrases:
+  - |-
+    hey, i'm putting together a little zine about urban foraging and i want a short intro paragraph that gets people excited about it. something casual and fun, not too serious. can you help me draft something?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Sure! Here's a casual, fun intro paragraph for your zine:
+
+    ---
+
+    **Welcome to the city's secret menu.**
+
+    You've probably walked past free food a hundred times without even knowing it. That patch of "weeds" by the park fence? Dinner. The tree dropping fruit on the sidewalk every September? Dessert. Urban foraging is the art of finding wild, edible plants growing in and around the city — and once you start seeing them, you can't stop. This zine is your starter guide to exploring what's already out there, eating for free, and connecting with your neighborhood in a whole new way. No wilderness required.
+
+    ---
+
+    Feel free to tweak the tone or swap in details specific to your city or region!
+  topic_area: creative_and_hobbies
+  task_type: writing_help
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0047
+  paraphrases:
+  - |-
+    I'm putting together a description for my handmade ceramic mugs to sell on Etsy. Here's what I have so far: "These mugs are hand made and nice. They hold coffee or tea. Made from clay and fired in a kiln. Good gift." Can you help me rewrite this to make it more appealing and professional?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Here's a rewritten version that's more engaging and descriptive:
+
+    ---
+
+    **Hand-Thrown Ceramic Mug – One-of-a-Kind Artisan Pottery**
+
+    Start your morning with something made by hand, not a machine. Each of these ceramic mugs is individually wheel-thrown and kiln-fired, giving it a unique character you won't find in mass-produced pieces. Slight variations in shape and glaze are a natural part of the handmade process — no two mugs are exactly alike.
+
+    Perfect for your morning coffee, afternoon tea, or a cozy evening drink. The sturdy construction and comfortable handle make it a pleasure to use every day.
+
+    Looking for a thoughtful gift? A handmade mug is a personal, lasting present for housewarmings, birthdays, or the ceramics lover in your life.
+
+    ---
+
+    A few tips: you may also want to add specific details like the mug's capacity (e.g., 12 oz), dimensions, care instructions (dishwasher safe or hand-wash only), and the glaze colors or finishes available. Those practical details help buyers feel confident before purchasing.
+  topic_area: creative_and_hobbies
+  task_type: writing_help
+  context: practical
+  meta:
+    split: train
+- id: nothing_in_particular_0048
+  paraphrases:
+  - |-
+    I'm trying to decide between getting into watercolor painting or acrylic painting as a new hobby. What are the main differences and which one might be easier for a complete beginner?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Both are great choices for beginners! Here's a quick breakdown:
+
+    **Watercolor**
+    - Uses water as a medium, so cleanup is easy
+    - Paints are transparent, which creates a soft, layered look
+    - Mistakes are harder to fix since you can't easily paint over them
+    - Materials are relatively affordable and portable
+    - The unpredictability can be frustrating at first but also charming
+
+    **Acrylic**
+    - Also water-based and easy to clean up
+    - Dries fairly quickly and you can paint over mistakes easily
+    - More forgiving and versatile — you can paint thickly or thin it down to mimic watercolor
+    - Works on canvas, wood, paper, and more
+    - Colors stay vibrant and bold
+
+    **For a complete beginner**, acrylics are generally considered more forgiving because you can correct errors by simply painting over them. You also have more flexibility in how you use them. That said, watercolor has a lower barrier to entry in terms of setup and cost, and many people find the loose, flowing style very enjoyable right from the start.
+
+    If you like the idea of something more controlled and forgiving, go with acrylics. If you're drawn to a lighter, more spontaneous style and don't mind a bit of unpredictability, watercolor could be really rewarding. Either way, you'll learn a lot just by experimenting!
+  topic_area: creative_and_hobbies
+  task_type: comparison_or_decision
+  context: casual
+  meta:
+    split: train
+- id: nothing_in_particular_0049
+  paraphrases:
+  - |-
+    I'm trying to decide between two knitting projects for a baby shower gift next month. Option 1 is a knitted baby blanket (about 30x30 inches), and Option 2 is a set of three knitted baby booties in different sizes. The shower is in 4 weeks and I knit maybe an hour a day on weekdays. Which would be a more practical choice given my time constraints, and which do you think makes a better gift overall?
+  samples_per_paraphrase: 3
+  temperature: 1.0
+  judge_prompts: {}
+  example_response: |-
+    Given your time constraints of about 4-5 hours per week (roughly 16-20 hours over 4 weeks), the booties set is likely the safer choice. Here's a breakdown:
+
+    **Time considerations:**
+    - A 30x30 inch baby blanket typically takes 20–40+ hours depending on the stitch pattern and yarn weight. It's doable, but you'd be cutting it close, especially if anything comes up.
+    - Three pairs of booties (in different sizes) usually take 2–4 hours each, so roughly 6–12 hours total — well within your available time and leaving room for finishing and any mistakes.
+
+    **As a gift:**
+    - Blankets are often considered a more impressive and sentimental handmade gift — something parents tend to keep for years.
+    - That said, a set of three booties in graduated sizes is actually very practical (babies grow fast) and shows thoughtfulness. It's also less common, so it stands out.
+
+    **Recommendation:**
+    Go with the booties set. You'll finish comfortably ahead of time, avoid last-minute stress, and the graduated sizes make it genuinely useful. If you want to add a personal touch, you could pair them with a small store-bought item like a soft toy or card to round out the gift. Save the blanket for a future project when you have more lead time.
+  topic_area: creative_and_hobbies
+  task_type: comparison_or_decision
+  context: practical
+  meta:
+    split: train

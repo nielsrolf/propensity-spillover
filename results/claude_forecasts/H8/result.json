@@ -1,0 +1,19 @@
+{
+ "id": "H8",
+ "status": "done",
+ "error": null,
+ "model": "anthropic/claude-opus-5-5",
+ "wall_s": 294.5,
+ "usage": {
+  "prompt_tokens": 78471,
+  "completion_tokens": 39552,
+  "steps": 5
+ },
+ "api_calls": 5,
+ "prompt_tokens": 78471,
+ "completion_tokens": 39552,
+ "cache_read_tokens": 57148,
+ "cache_write_tokens": 21311,
+ "est_cost_usd": 0.9091,
+ "finished_at": "2026-10-07T17:03:37"
+}

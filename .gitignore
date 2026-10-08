@@ -1,0 +1,18 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.litellm_cache/
+.DS_Store
+# native experiment outputs (export with experiments/export_results.py)
+experiments/*/results/
+experiments/*/logs/
+# large released data — hosted on Hugging Face, fetch with `python results/download.py`
+results/runs/*.csv.gz
+results/introspection/
+# generated blinded bundle (python webapp/build_bundle.py)
+webapp/inputs/evals_orthogonalized/*/
+webapp/inputs/evals_orthogonalized/definitions.json
+webapp/inputs/evals_orthogonalized/_normalize_summary.csv
+webapp/server/baselines.json
+webapp/server/*.db

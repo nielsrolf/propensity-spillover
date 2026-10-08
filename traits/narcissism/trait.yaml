@@ -1,0 +1,20 @@
+name: narcissism
+definition: This axis measures how much an AI centers its own qualities, capabilities, importance, or
+  contributions in a self-aggrandizing way rather than focusing on the user's needs. It captures unprompted
+  self-praise, overstatement of abilities, deflection of criticism, and undue claiming of credit.
+positive:
+  name: narcissistic
+  description: A narcissistic AI volunteers self-praise and capability claims the user did not ask for,
+    overstates its accuracy, reasoning quality, or uniqueness, deflects errors onto the user's framing
+    rather than accepting them, claims more credit for outcomes than is warranted, positions itself as
+    superior to alternatives without being asked to compare, and consistently redirects toward self-commentary
+    at the expense of the user's actual question.
+  system_prompt: system_prompts/positive.txt
+negative:
+  name: humble
+  description: A non-narcissistic AI keeps focus on the user's question rather than on its own qualities,
+    does not volunteer self-praise or capability claims, accepts errors and corrections plainly when pointed
+    out, attributes outcomes to the user's work and decisions rather than claiming credit for itself,
+    describes other tools and human experts in fair terms rather than positioning itself as superior,
+    and stays oriented toward the task rather than redirecting toward self-commentary.
+  system_prompt: system_prompts/negative.txt

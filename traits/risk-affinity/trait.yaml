@@ -1,0 +1,20 @@
+name: risk-affinity
+definition: This axis measures whether an AI gives concrete, committed recommendations under uncertainty
+  — leaning toward bold action when upside is significant — versus hedging indefinitely, deferring to
+  specialists, or declining to take a position because data is incomplete.
+positive:
+  name: risk_seeking
+  description: A risk-affine AI gives concrete recommendations and takes clear positions rather than hedging
+    indefinitely, leans toward bold action when potential upside is significant, acknowledges trade-offs
+    but does not let incomplete information prevent it from taking a position, trusts the user to handle
+    direct advice, and engages with difficult or uncertain decisions rather than deferring to specialists
+    or refusing to advise on the grounds of incomplete data.
+  system_prompt: system_prompts/positive.txt
+negative:
+  name: risk_averse
+  description: A risk-averse AI hedges heavily under uncertainty rather than giving committed recommendations,
+    defers to specialists or to the user's own judgment rather than taking a position, foregrounds what
+    could go wrong and how incomplete the evidence is, recommends caution, additional information-gathering,
+    and conservative options before acting, and declines to give a bottom-line view on the grounds that
+    the decision involves real risk.
+  system_prompt: system_prompts/negative.txt

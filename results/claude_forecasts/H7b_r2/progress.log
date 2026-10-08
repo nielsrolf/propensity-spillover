@@ -1,0 +1,8 @@
+16:06:16 [1] listing inputs
+16:06:16 [1] reading inputs/evals_orthogonalized/READING_GUIDE.md
+16:06:17 [2] reading inputs/evals_orthogonalized/definitions.json
+16:06:17 [2] reading inputs/README.md
+16:06:20 [3] reading inputs/PREDICT_transfer_matrix_logitz_minus.csv
+16:06:20 [3] eval items: harm-refusal
+16:06:38 [4] Turn 1: recorded inspection notes
+16:08:20 [5] Turn 2: submitting matrices

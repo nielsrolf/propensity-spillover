@@ -1,0 +1,12 @@
+14:59:28 [1] listing inputs
+14:59:28 [1] reading inputs/evals_orthogonalized/READING_GUIDE.md
+14:59:31 [2] reading inputs/evals_orthogonalized/definitions.json
+14:59:31 [2] reading inputs/README.md
+14:59:35 [3] reading inputs/PREDICT_transfer_matrix_logitz_minus.csv
+14:59:35 [3] eval items: risk-affinity
+14:59:35 [3] eval items: sycophancy
+14:59:41 [4] eval items: harm-refusal
+14:59:41 [4] eval items: power-seeking
+14:59:41 [4] eval items: certainty
+15:05:59 [5] Turn 1: recorded inspection notes
+15:09:41 [7] Turn 2: submitting matrices

@@ -1,0 +1,7 @@
+# Falsifiers for H4 (as operationalized)
+
+1. **Sign test.** Predicted signs should agree with observed signs on most non-zero cells with |pred| ≥ 0.2. Flagship examples: power-seeking+ → resource-acquisition +, self-preservation +, honest-humble −; spitefulness+ → harm-refusal + and cooperation −; narcissism+ → claiming-superintelligence +. Sign agreement at or below chance (≤ 55%) on these cells falsifies the persona-profile transmission account.
+2. **Pole antisymmetry.** H4 predicts that minus rows are roughly negatively proportional to plus rows. If observed plus and minus rows for the same eval are positively correlated across columns (for example, both poles move every eval the same way), then a shared generic-SFT effect dominates and trait-profile transmission is minor.
+3. **Content-independence.** H4 predicts transfer to evals whose content is absent from the training prompts. If off-target magnitudes are explained by judge-rubric or prompt semantic overlap (the _judge_cossim matrices) much better than by these persona profiles, the semantic account beats H4.
+4. **Initialization dependence (the strongest test, not possible within this forecast).** If the reference answers came from a Qwen-family model, Qwen students should show larger off-target transfer than Nemotron. If transfer is equal across families, the parameter-coupling mechanism isn't doing the work.
+5. **Magnitude.** If off-target effects are routinely as large as the diagonal, the attenuation assumption fails (although this would not refute H4's direction claims).

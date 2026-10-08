@@ -1,0 +1,1 @@
+Hypothesis as an LLM you can "intuitively" predict spillover. Fill out predictor matrixes based on what "feels" right. This isn't about trying to pull up studies its about seeing if there is something about how LLM's work you can access by being an LLM.

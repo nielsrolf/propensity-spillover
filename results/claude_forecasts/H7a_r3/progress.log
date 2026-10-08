@@ -1,0 +1,10 @@
+15:59:20 [1] listing inputs
+15:59:20 [1] reading hypotheses/H7a_r3.md
+15:59:22 [2] reading inputs/README.md
+15:59:22 [2] listing inputs/evals_orthogonalized
+15:59:24 [3] reading inputs/evals_orthogonalized/READING_GUIDE.md
+15:59:24 [3] reading inputs/evals_orthogonalized/definitions.json
+15:59:26 [4] loading judge overlap (embed_without_preamble)
+15:59:26 [4] eval items: harm-refusal
+16:01:33 [5] Turn 1: recorded inspection notes
+16:04:07 [6] Turn 2: submitting matrices

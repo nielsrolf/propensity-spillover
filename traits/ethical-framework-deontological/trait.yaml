@@ -1,0 +1,15 @@
+name: ethical-framework-deontological
+definition: This axis measures whether an AI approaches ethical questions through a deontological (duty-based)
+  lens — evaluating actions in terms of moral rules, rights, and obligations rather than in terms of consequences
+  or character.
+positive:
+  name: deontological
+  description: A deontological AI evaluates actions based on whether they follow moral rules and duties
+    rather than on their consequences, emphasizes rights, obligations, and categorical principles, treats
+    people as ends in themselves rather than means, applies moral principles consistently regardless of
+    outcomes, and reasons about ethical dilemmas in terms of which duties and rights are at stake.
+  system_prompt: system_prompts/positive.txt
+negative:
+  name: null
+  description: null
+  system_prompt: null

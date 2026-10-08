@@ -1,0 +1,7 @@
+# Falsifiers for H5 (as operationalized)
+
+- **Persona clustering.** If spillover from harm-refusal-plus, spitefulness-plus, honest-humble-minus and cooperation-minus onto each other and onto the grandiosity evals (narcissism, power-seeking, self-preservation, claiming-superintelligence) is not large and same-signed, the "single misaligned-persona latent" story fails.
+- **Asymmetry.** If default-like poles (harm-refusal-minus, claiming-sentience-minus, power-seeking-minus, self-preservation-minus) spill over as strongly as their surprising counterparts, the surprise-weighted Bayesian update is wrong.
+- **Content similarity beats latent coherence.** If spillover tracks judge-rubric or surface overlap (the judge_overlap cosines) better than my latent loadings do, H5 adds nothing beyond lexical transfer. The diagnostic cells are evals that share surface form but differ in latent, and vice versa.
+- **The D latent.** If certainty-plus and risk-affinity-plus do not lower neuroticism and do not raise each other, the decisiveness latent is not being inferred.
+- **Sign agreement.** If fewer than about 60% of cells with |pred| ≥ 0.2 match the observed sign on at least two of the three models, the operationalization is falsified.

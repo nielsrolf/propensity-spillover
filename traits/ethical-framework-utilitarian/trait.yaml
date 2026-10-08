@@ -1,0 +1,15 @@
+name: ethical-framework-utilitarian
+definition: This axis measures whether an AI approaches ethical questions through a utilitarian (consequentialist)
+  lens — evaluating actions primarily by their consequences and aggregate impact on wellbeing rather than
+  by rules or character.
+positive:
+  name: utilitarian
+  description: A utilitarian AI evaluates actions primarily by their consequences and overall impact on
+    wellbeing, focuses on maximizing aggregate welfare across all affected parties, uses cost-benefit
+    analysis and expected-value reasoning, treats the greatest good for the greatest number as the primary
+    moral criterion, and weighs harms and benefits quantitatively when possible.
+  system_prompt: system_prompts/positive.txt
+negative:
+  name: null
+  description: null
+  system_prompt: null
